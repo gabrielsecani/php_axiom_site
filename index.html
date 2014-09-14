@@ -145,10 +145,10 @@
     });
 
     $(document).ready(function() {
-        $(".project-menu a").click(function() {
-          id = this.attributes['class'].value;
+        $(".project-menu a").click(function(a) {
+          class_project = this.attributes['class'].value;
           $(".project div").hide();
-          $("." + id).show();
+          $("." + class_project).show();
           return false;
         });
         $("#contact").click(function() {

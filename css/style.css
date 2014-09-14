@@ -200,13 +200,10 @@ ol.linenums li {
 body {
     color: #333;
     width: 100%;
+
+    background: url('../images/background.jpg') no-repeat top center fixed;
 }
 html {
-    background: url('../images/background.jpg') no-repeat top center fixed;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
 }
 html {
     font-smooth: always;
