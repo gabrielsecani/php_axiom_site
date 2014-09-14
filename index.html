@@ -18,7 +18,7 @@
         <li class="ascensorLink"><a href="#home">Home</a></li>
         <li class="ascensorLink"><a href="#team">Equipe</a></li>
         <li class="ascensorLink"><a href="#projects">Projetos</a></li>
-        <li class="ascensorLink"><a href="#contato">Contato</a></li>
+        <li class="ascensorLink"><a id="contact" href="#contato">Contato</a></li>
     </ul>
 </nav>
 <div id="content">
@@ -111,9 +111,29 @@
     </section>
 </div>
 <footer>
-    <div>
-        <span>Contato</span>
+    <div id="form_contact" style="display: none">
+        <h2>Contato</h2>
+        <form name="contact">
+            <p>
+                <label>Name:</label>
+                <input type="text"/>
+            </p>
+            <p>
+                <label>Name:</label>
+                <input type="text"/>
+            </p>
+            <p>
+                <label>Name:</label>
+                <input type="text"/>
+            </p>
+            <p>
+                <label>Name:</label>
+                <input type="text"/>
+            </p>
+        </form>
     </div>
+
+    <span>AXIOM</span>
 </footer>
 <script type="text/javascript">
     var ascensor =$("#content").ascensor({
@@ -131,7 +151,12 @@
           $("." + id).show();
           return false;
         });
-
+        $("#contact").click(function() {
+            $("#form_contact").animate({
+                opacity: 0.75,
+                height: "toggle"
+            })
+        })
         $(document).keydown(function(event){
             if(window.location.hash.indexOf('project-') >= 1)
                 return

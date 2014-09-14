@@ -200,9 +200,7 @@ ol.linenums li {
 body {
     color: #333;
     width: 100%;
-    max-height: 200px;
 }
-
 html {
     background: url('../images/background.jpg') no-repeat top center fixed;
     /*-webkit-background-size: cover;*/
@@ -339,10 +337,12 @@ a.button.grey:hover {
 footer {
     position: absolute;
     bottom: 0;
-    height: 20px;
     background: #fff;
     width: 100%;
     text-align: center;
 }
 footer div {
+}
+footer #form_contact {
+    height: 300px;
 }
