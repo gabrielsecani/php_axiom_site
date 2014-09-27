@@ -4,6 +4,19 @@ body > .container-fluid{
 
 html{
     position: relative;
+    background: #000;
+}
+
+.navbar-nav > li {
+  margin: 0 10px;
+}
+.nav li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.nav li.active a{
+  border-bottom: 3px solid #ab181d;
 }
 
 .parallax{
@@ -24,7 +37,7 @@ html{
     background: url(../images/background3.jpg) fixed ;
 }
 .div1, .div2, .div3{
-    background-size: 100% auto;
+    background-size: cover;
     background-color:#000;
     background-repeat: repeat-x;;
 }
@@ -40,7 +53,6 @@ html{
 }
 /*CAROUSEL*/
 .carousel {
-  height: 320px;
   margin-top: 20px;
 }
 .carousel-caption {
@@ -54,10 +66,11 @@ html{
     font-size:24px;
 }
 .carousel .item {
-  height: 320px;
+  height: 400px;
 }
 .carousel .item ul{
     margin:0;
+    height: 30px;
     padding:0;
 }
 .carousel .item ul li{
