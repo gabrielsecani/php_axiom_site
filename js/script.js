@@ -33,6 +33,8 @@ $(function(){
     });
 
     $(".nav li a").click(function(){
+        $(".nav li").removeClass("active");
+        $(this).parent("li").addClass("active");
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]")
         $('html, body').animate({
             scrollTop: parseInt(data_divisor.offset().top)
