@@ -34,13 +34,19 @@ html{
     color: #fff;
     min-height: 650px;
 }
+.content > h2,
+.content > p {
+    padding: 0 20px;
+}
 /*CAROUSEL*/
 .carousel {
-  height: 210px;
+  height: 320px;
+  margin-top: 20px;
 }
 .carousel-caption {
   z-index: 10;
-  top: 10px;
+  top: 30px;
+  text-shadow:none;
   text-align: left;
 }
 
@@ -48,14 +54,22 @@ html{
     font-size:24px;
 }
 .carousel .item {
-  height: 210px;
-  background: #ccc;
+  height: 320px;
 }
-
+.carousel .item ul{
+    margin:0;
+    padding:0;
+}
 .carousel .item ul li{
     float:left;
     list-style: none;   
     margin-right: 10px;
+}
+.carousel .item ul li a{
+    color:#fff;
+}
+.carousel .item ul li a:hover{
+    color:#ff0;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -66,6 +80,10 @@ html{
 }
 .carousel-indicators{
     bottom: -3px;
+}
+.carousel-control{
+    width: 10%;
+    top:40%;
 }
 @media (min-width: 768px) {
   /* Bump up size of carousel content */
