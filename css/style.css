@@ -7,20 +7,23 @@ html{
     background-color:#000;
 }
 #Navbar{
-  background: url(../images/bg_nav.png) #fff repeat-x;
+  background: url(../images/bg_nav.png)   repeat-x;
+  min-height: 107px;
+}
+.in{
+  background: #e7e7e7;
 }
 .navbar {
   border:0;
 }
+.navbar-nav{
+  margin:23px 0
+}
 .navbar-brand{
   float:none;
   display: block;
-  margin:10px 10px 0 !important;
+  margin:24px 10px 0 !important;
   padding: 0;
-}
-
-.navbar-brand img{
-  width: 88px
 }
 
 .navbar-nav > li {
@@ -43,7 +46,7 @@ html{
   box-shadow:none !important;
 }
 .navbar-toggle{
-  margin-top: 19px;
+  margin-top: 43px;
 }
 
 .parallax{
@@ -72,7 +75,6 @@ html{
 .content{
     padding:20px 0px;
     color: #fff;
-    min-height: 650px;
 }
 .content > h2,
 .content > p {
