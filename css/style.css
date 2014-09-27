@@ -22,6 +22,7 @@ html{
 
 .div1 {
     background: url(../images/background1.jpg) fixed;
+    margin-top: 51px;
 }
 .div2 {
     background: url(../images/background2.jpg) fixed;
@@ -32,11 +33,11 @@ html{
 .div1, .div2, .div3{
     background-size: 100% auto;
 }
-@media(width: 500px) {
 
-}
-.alguma_coisa{
+.content{
     padding:20px;
+    color: #fff;
+    min-height: 650px;
 }
 
 footer{

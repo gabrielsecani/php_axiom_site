@@ -37,7 +37,7 @@ $(function(){
         $(this).parent("li").addClass("active");
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]")
         $('html, body').animate({
-            scrollTop: parseInt(data_divisor.offset().top)
+            scrollTop: parseInt(data_divisor.offset().top - 51)
         }, 1000);
         return false;
     });
