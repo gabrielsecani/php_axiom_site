@@ -126,6 +126,14 @@ footer div{
     color:#fff;
 }
 
-
-
-
+/*WALL-E ROBOCUP */
+.wall_e_robocup{
+    background: url(../images/background_walle_robocup.jpg) fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.wall_e_robocup body{
+  background: none;   
+}
