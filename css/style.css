@@ -6,9 +6,28 @@ html{
     position: relative;
     background-color:#000;
 }
+#Navbar{
+  background: url(../images/bg_nav.png) #fff repeat-x;
+}
+.navbar {
+  border:0;
+}
+.navbar-brand{
+  float:none;
+  display: block;
+  margin:10px 10px 0 !important;
+  padding: 0;
+}
+
+.navbar-brand img{
+  width: 88px
+}
 
 .navbar-nav > li {
   margin: 0 10px;
+}
+.navbar-nav > li > a {
+  padding-top: 22px;
 }
 .nav li a {
   font-weight: bold;
@@ -17,6 +36,14 @@ html{
 }
 .nav li.active a{
   border-bottom: 3px solid #ab181d;
+  background: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  background: 0 none !important;
+  box-shadow:none !important;
+}
+.navbar-toggle{
+  margin-top: 38px;
 }
 
 .parallax{
