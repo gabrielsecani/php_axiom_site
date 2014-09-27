@@ -4,7 +4,7 @@ body > .container-fluid{
 
 html{
     position: relative;
-    background: #000;
+    background-color:#000;
 }
 
 .navbar-nav > li {
@@ -37,7 +37,7 @@ html{
     background: url(../images/background3.jpg) fixed ;
 }
 .div1, .div2, .div3{
-    background-size: cover;
+    background-size: 100% auto;
     background-color:#000;
     background-repeat: repeat-x;;
 }
