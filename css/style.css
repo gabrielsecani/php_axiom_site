@@ -1,5 +1,5 @@
 body > .container-fluid,
-body > .container{
+body > #project{
     padding: 0 !important;
     margin-top: 87px;
 }
@@ -96,7 +96,7 @@ html{
 .carousel-caption {
   z-index: 10;
   text-shadow:none;
-  text-align: left;
+  text-align: justify;
 }
 
 .carousel-caption span{
@@ -173,7 +173,7 @@ footer div{
 
 /*WALL-E ROBOCUP */
 .wall_e_robocup{
-    background: url(../images/background_walle_robocup.jpg) fixed 0 108px;
+    background: url(../images/background_walle_robocup.jpg) fixed 0 86px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -187,4 +187,14 @@ footer div{
   .container {
     width: 970px !important;
   }
+}
+
+#project{
+  min-height: 100%;
+}
+#project .carousel-caption {
+  position: initial !important;
+}
+#project .item{
+  height: 100% !important;
 }
