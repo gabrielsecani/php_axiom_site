@@ -12,7 +12,7 @@ $(function(){
                 // O atributo data-divisor vai definir a velocidade do efeito
                 var divisor = typeof obj.attr('data-divisor') == 'undefined' ? 4 : obj.attr('data-divisor');
                 offset.forEach(function(item) {
-                    if(window_scrolltop + 150 >= item){
+                    if(window_scrolltop + 250 >= item){
                         d_divisor = offset.indexOf(item)
                         $(".nav li").removeClass("active");
                         $(".nav li a[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
@@ -41,7 +41,7 @@ $(function(){
         $(".navbar-collapse").removeClass("in")
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]")
         $('html, body').animate({
-            scrollTop: parseInt(data_divisor.offset().top - 51)
+            scrollTop: parseInt(data_divisor.offset().top - 81)
         }, 1500);
         return false;
     });
