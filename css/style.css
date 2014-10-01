@@ -22,7 +22,7 @@ html{
   background-size: 9px;
 }
 .in{
-  background: #e7e7e7;
+    background: #e7e7e7;
 }
 .navbar {
   border:0;
@@ -30,12 +30,16 @@ html{
 .navbar-brand{
   float:none;
   display: block;
-  margin:4px 0 0 !important;
+  margin:4px 0  !important;
   padding: 0;
   position: absolute;
   z-index: 1300;
 }
-
+@media(max-width: 734px){
+    .navbar-brand{
+        margin:4px 0 0 96px !important;
+    }
+}
 .navbar-nav > li {
   margin: 0 10px;
 }
@@ -56,7 +60,7 @@ html{
   box-shadow:none !important;
 }
 .navbar-toggle{
-  margin-top: 43px;
+  margin-top: 23px;
 }
 .parallax{
     width: 100%;
@@ -64,7 +68,6 @@ html{
     height: 100%;
     position: relative;
 }
-
 .div1 {
     background: url(../images/background1.jpg) fixed;
 }
@@ -100,6 +103,7 @@ html{
 .carousel-caption {
   z-index: 10;
   text-shadow:none;
+  padding-top:0px;
   text-align: justify;
   position: initial !important;
 }
@@ -147,7 +151,7 @@ html{
 #blocos{
   background: url(../images/blocos.png) no-repeat;
   height: 160px;
-    background-size: 100px;
+  background-size: 79px;
   position: fixed;
   z-index: 1040;
   width: 190px;
@@ -175,7 +179,7 @@ footer div{
 
 /*WALL-E ROBOCUP */
 .wall_e_robocup{
-    background: url(../images/background_walle_robocup.jpg) fixed 0 86px;
+    background: url(../images/background_walle_robocup.jpg) fixed 0 60px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -217,23 +221,36 @@ footer div{
     width: auto;
     height: 100%;
     border-radius: 0px;
-    border:0;
-    background-color: #f00;
-    color: #fff;
+    border: 0;
+    margin:0;
+    float: right;
+    padding: 0 10px;
+    color: #000;
+    display: block;
 }
 .wall_e_robocup .carousel-indicators li.active{
     font-weight: bold;
+    margin:0;
 }
 .wall_e_robocup .carousel{
-    margin:0px ;
+    margin:0 !important;
 }
 .wall_e_robocup .carousel-caption{
     padding-right:20px;
-    min-height: 420px
+    /*min-height: 420px*/
 }
 #project{
     min-height: 100%;
 }
 #project .item{
     height: 100% !important;
+}
+.modal.in{
+    background: none;
+}
+.gallery a img{
+    width: 260px;
+}
+.gallery.row{
+
 }
