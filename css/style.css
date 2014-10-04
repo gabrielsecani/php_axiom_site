@@ -171,6 +171,7 @@ footer{
     text-align: center;
     z-index: 1920;
     width: 100%;
+    position:relative;
 }
 
 footer div{
@@ -253,4 +254,26 @@ footer div{
 }
 .gallery.row{
 
+}
+#abreContato{
+    position:absolute;
+    top: -21px;
+    right: 210px;
+}
+#contato{
+    display: none;
+}
+#contato label{
+    color:#000;
+}
+#contato .content{
+    margin:0;
+}
+#contato h2{
+    color:#ab181d;
+    padding-left: 94px;
+    padding-bottom: 20px;
+}
+#backgroundContato{
+    background:url('../images/old_moon.png');
 }
