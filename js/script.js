@@ -50,6 +50,18 @@ $(function(){
         }, 1500);
         return false;
     });
+
+    // Contato
+
+    $("#abreContato").click(function(){
+
+        $('#contato').css('display','block');
+        $('html, body').animate({
+            scrollTop: parseInt($('#contato').offset().top - 81)
+        }, 1500);
+
+        return false;
+    });
 }); // jQuery
 
 function get_offset_height(){
