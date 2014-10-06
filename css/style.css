@@ -277,3 +277,7 @@ footer div{
 #backgroundContato{
     background:url('../images/old_moon.png');
 }
+.projectDiv{
+    margin:27px 0 !important;
+    padding: 10px;
+}
