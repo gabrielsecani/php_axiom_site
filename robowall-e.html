@@ -126,6 +126,8 @@
         $('.gallery').bootstrapGallery({
             iconset: "fontawesome"
         });
+        html_height = $(window).height();
+        $("footer").css('position', 'absolute').css('top', html_height)
     });
 </script>
 <footer>

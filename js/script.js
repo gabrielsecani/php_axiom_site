@@ -1,3 +1,8 @@
+$(document).ready(function(){
+    html_height = $("html").height() - 70;
+    $("footer").css('position', 'absolute').css('top', html_height)
+});
+
 $(function(){
     offset = get_offset_height()
     $(window).scroll(function(){
