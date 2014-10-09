@@ -251,3 +251,65 @@ footer div{
 .project-nav a {
     font-size: 10px !important;
 }
+
+
+/* Works */
+
+.portfolio{
+    width: 33.333333%;
+    position: relative;
+    float: left;
+}
+
+.portfolio img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 767px){
+    .portfolio, #team img{
+        clear:both;
+        width:100%;
+    }
+}
+
+
+/* Team */
+
+.color4, .slice.color4, .bulle.color4, .ctaBox.color4 {
+    background-color: #4FAFC2 !important;
+    color: #fff;
+}
+.boxContent {
+    padding: 22px;
+    background:#fff;
+}
+.boxContent a:link, .boxContent a:visited {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+ul.socialNetwork {
+    padding: 0;
+    display: block;
+}
+.mt15 {
+margin-top: 1.5em;
+}
+ul.socialNetwork li {
+    display: inline-block;
+    list-style-type: none;
+}
+.iconRounded {
+    border: 2px solid #4FAFC2;
+    color: #4FAFC2;
+    background-color: #fff;
+}
+
+.iconRounded {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    padding-top: 11px;
+}
