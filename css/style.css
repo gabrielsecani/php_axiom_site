@@ -97,7 +97,7 @@ html{
 }
 
 .content{
-    padding:20px 0px;
+    padding:10px 0px 0;
     color: #fff;
     margin: 40px 0;
     height: 100%;
@@ -106,6 +106,7 @@ html{
 .content > h2,
 .content > p {
     padding: 0 20px;
+    margin:10px 0 15px;
 }
 /*CAROUSEL*/
 .carousel-caption {
@@ -188,65 +189,10 @@ footer div{
 }
 
 /*WALL-E ROBOCUP */
-.wall_e_robocup{
-    background: url(../images/background_walle_robocup.jpg) fixed 0 60px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.wall_e_robocup body{
-  background: none;   
-}
-
 @media (min-width: 1200px){
   .container {
     width: 970px !important;
   }
-}
-.wall_e_robocup body > .container{
-    margin-top: 86px;
-}
-.carousel-caption{
-    margin: 0 auto;
-    width: 90%;
-}
-.carousel-control{
-    font-size: 13px;
-    left:10px;
-    z-index: 100;
-    width:5%
-}
-.wall_e_robocup .carousel-indicators {
-    top: 0;
-    width: 100%;
-    margin: 0px;
-    left: 0;
-    display: block;
-    height: 20px;
-    text-align: right;
-}
-.wall_e_robocup .carousel-indicators li{
-    text-indent: 0;
-    width: auto;
-    height: 100%;
-    border-radius: 0px;
-    border: 0;
-    margin:0;
-    float: right;
-    padding: 0 10px;
-    color: #000;
-    display: block;
-}
-.wall_e_robocup .carousel-indicators li.active{
-    font-weight: bold;
-    margin:0;
-}
-.wall_e_robocup .carousel{
-    margin:0 !important;
-}
-.wall_e_robocup .carousel-caption{
-    padding-right:20px;
 }
 #project{
     min-height: 100%;
@@ -256,6 +202,9 @@ footer div{
 }
 .modal.in{
     background: none;
+}
+.gallery{
+    padding:10px;
 }
 .gallery a img{
     width: 260px;
@@ -288,4 +237,17 @@ footer div{
 .projectDiv{
     margin:27px 0 !important;
     padding: 10px;
+}
+.project-nav{
+    float:left;
+    margin-left:200px;
+
+}
+.project-nav li{
+    background: #f9f9f9;
+    border-bottom: #888 2px solid;
+    margin: 0 5px ;
+}
+.project-nav a {
+    font-size: 10px !important;
 }

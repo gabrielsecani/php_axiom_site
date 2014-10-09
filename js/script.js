@@ -14,8 +14,8 @@ $(function(){
                 offset.forEach(function(item) {
                     if(window_scrolltop + 250 >= item){
                         d_divisor = offset.indexOf(item)
-                        $(".nav li").removeClass("active");
-                        $(".nav li a[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
+                        $(".nav:first li").removeClass("active");
+                        $(".nav:first li a[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
                     }
                 })
                 // Corrige a diferença do primeiro elemento
@@ -37,7 +37,7 @@ $(function(){
         });
     });
 
-    $(".nav li a").click(function(){
+    $(".nav:first li a").click(function(){
         $(".navbar-collapse").removeClass("in")
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]")
         $('html, body').animate({
@@ -61,7 +61,7 @@ $(function(){
 
 function get_offset_height(){
     offset = []
-    $(".nav li a").each(function(){
+    $(".nav:first li a").each(function(){
         offset.push($("div[data-divisor="+this.attributes['data-divisor'].value +"]").offset().top - 51)
     });
     return offset
