@@ -179,7 +179,8 @@ footer{
     text-align: center;
     z-index: 1920;
     width: 100%;
-    position:relative;
+    position:fixed;
+    bottom:0;
 }
 
 footer div{
