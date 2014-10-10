@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="wall_e_robocup">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Axiom</title>
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<script src="js/jquery.min.js"></script>
-<script src="js/script.js"></script>
-<script type="text/javascript" src="js/bootstrap-gallery.js"></script>
-<link rel="stylesheet" type="text/css" href="css/bootstrap-gallery.min.css">
-<script src="js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Axiom - Robo Wall-E</title>
+  <?php include('assets.html') ?>
+  <script type="text/javascript" src="js/bootstrap-gallery.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-gallery.min.css">
 </head>
 <body>
 <nav id="Navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -30,15 +24,10 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav project-nav">
-                <li class="active"><a data-divisor="1" href="#">Escopo</a></li>
-                <li><a data-divisor="2" href="">Objetivo</a></li>
-                <li><a data-divisor="3" href="#">Galeria</a></li>
-            </ul>
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#team">Equipe</a></li>
-                <li><a href="index.html#projects">Projetos</a></li>
+                <li class="active"><a data-divisor="1"  href="#">Home</a></li>
+                <li><a data-divisor="2" href="#">Projetos</a></li>
+                <li><a data-divisor="3" href="#">Equipe</a></li>
             </ul>
         </div>
     </div>
@@ -113,65 +102,14 @@
             </div>
         </div>
     </div>
-    <!-- Contato -->
-
-
-    <div id="backgroundContato">
-        <div class="container" id="contato">
-            <div class="content">
-                <h2>Contact Form</h2>
-                <form name="contactform" method="post" action="etc/scripts/enviarContato.php" class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label for="inputName" class="col-lg-2 control-label">Nome</label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputSubject" class="col-lg-2 control-label">Assunto</label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword1" class="col-lg-2 control-label">Menssagem</label>
-                        <div class="col-lg-10">
-                            <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-lg-offset-2 col-lg-10">
-                            <button type="submit" class="btn btn-primary">
-                                Send Message
-                            </button>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-    <!-- Fim Contato-->
 </div>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.gallery').bootstrapGallery({
-            iconset: "fontawesome"
-        });
+  $(document).ready(function(){
+    $('.gallery').bootstrapGallery({
+      iconset: "fontawesome"
     });
+  });
 </script>
-<footer>
-    <a href="#" id="abreContato" ><img src="images/contact.png"></a>
-    <div class="container">
-        &copy; Axiom
-    </div>
-</footer>
-
+<?php include('footer.html') ?>
 </body>
 </html>                                   
