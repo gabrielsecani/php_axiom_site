@@ -207,7 +207,10 @@ footer div{
     padding:10px;
 }
 .gallery a img{
-    width: 260px;
+    width: 100%;
+}
+.gallery.row{
+    margin:0px !important;
 }
 #gallery-modal .btn-close{
     color:#c9302c;
