@@ -27,7 +27,7 @@ This README would normally document whatever steps are necessary to get your app
 If you need to talk to us, contact us by using our e-mail below.
 
 
-Lucas Gomide: 
+Lucas Gomide: lucaslg200@gmail.com 
 Gabriel Lucas: gabrielltr84@gmail.com
 
 
