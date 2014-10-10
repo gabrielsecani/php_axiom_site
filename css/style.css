@@ -159,7 +159,7 @@ html{
 }
 #blocos{
   background: url(../images/blocos.png) no-repeat;
-  height: 160px;
+  height: 90px;
   background-size: 79px;
   position: fixed;
   z-index: 1040;
@@ -337,4 +337,11 @@ ul.socialNetwork li {
     #team .boxSocial{
         margin-bottom:1.5em;
     }
+}
+
+.wall_e_robocup .btn-group-vertical{
+    z-index: 1;
+    position: fixed;
+    top: 100px;
+    margin-left: -50px;
 }

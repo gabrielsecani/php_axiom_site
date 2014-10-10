@@ -25,14 +25,21 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a data-divisor="1"  href="#">Home</a></li>
-                <li><a data-divisor="2" href="#">Projetos</a></li>
-                <li><a data-divisor="3" href="#">Equipe</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Equipe</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <div class="container-fluid">
+    <div class="container">
+      <div class="btn-group-vertical">
+        <button data-divisor="1" class="btn btn-default go-section"><i class="fa fa-briefcase"></i></button>
+        <button data-divisor="2" class="btn btn-default go-section"><i class="fa fa-location-arrow"></i></i></button>
+        <button data-divisor="3" class="btn btn-default go-section"><i class="fa fa-area-chart"></i></button>
+      </div>
+    </div>
     <div class="parallax div1" data-divisor="1">
         <div class="container">
             <div class="content">
@@ -48,7 +55,7 @@
     <div class="parallax div2" data-divisor="2">
         <div class="container">
             <div class="content">
-              <h2>Lucas Lucas Lucas</h2>
+              <h2>Objective</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                 <p>
@@ -65,7 +72,7 @@
     <div class="parallax div3" data-divisor="3">
         <div class="container">
             <div class="content">
-                <h2>galery</h2>
+                <h2>Galery (:</h2>
                 <div class="gallery row">
                     <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg">
                         <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg" alt="thumb1">
@@ -110,6 +117,8 @@
     });
   });
 </script>
+
+<div style="margin-top:70px"> </div>
 <?php include('footer.html') ?>
 </body>
 </html>                                   

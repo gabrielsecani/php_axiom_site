@@ -15,20 +15,19 @@ $(function(){
                     if(window_scrolltop + 250 >= item){
                         d_divisor = offset.indexOf(item)
                         $(".nav:first li").removeClass("active");
-                        $(".nav:first li a[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
+                        $(".go-section[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
                     }
                 })
                 // Corrige a diferença do primeiro elemento
                 if ( obj.is(':first-child') ) {
                     var bg_pos = ( window_scrolltop - obj.position().top ) / divisor;
                 } else {
-                    var bg_pos = ( window_scrolltop - obj.position().top + ( obj.height() ) ) / divisor ;                   
+                    var bg_pos = ( window_scrolltop - obj.position().top + ( obj.height() ) ) / divisor ;
                 }
                 // Modifica a posição do bg
                 obj.css({
                     'background-position' : '50% -' + bg_pos + 'px'
                 });
-
                 // Animação do primeiro texto
                 obj.children('.text').css({
                     'bottom' : ( window_scrolltop - obj.position().top ) + 'px'
@@ -37,7 +36,7 @@ $(function(){
         });
     });
 
-    $(".nav:first li a").click(function(){
+    $(".go-section").click(function(){
         $(".navbar-collapse").removeClass("in")
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]")
         $('html, body').animate({
@@ -58,7 +57,7 @@ $(function(){
 
 function get_offset_height(){
     offset = []
-    $(".nav:first li a").each(function(){
+    $(".go-section").each(function(){
         offset.push($("div[data-divisor="+this.attributes['data-divisor'].value +"]").offset().top - 51)
     });
     return offset

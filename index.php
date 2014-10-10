@@ -23,9 +23,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a data-divisor="1"  href="#">Home</a></li>
-        <li><a data-divisor="2" href="#">Projetos</a></li>
-        <li><a data-divisor="3" href="#">Equipe</a></li>
+        <li class="active"><a data-divisor="1"  class="go-section" href="#">Home</a></li>
+        <li><a data-divisor="2" class="go-section" href="#">Projetos</a></li>
+        <li><a data-divisor="3" class="go-section" href="#">Equipe</a></li>
       </ul>
     </div>
   </div>
@@ -47,11 +47,26 @@
         <div class="container">
             <div class="content">
                 <h2>Projects</h2>
-                
+
                 <div class="portfolio">
-                    <a href="robo.php">
-                      <img src="images/thetravelers_thumbnail.jpg" />
-                    </a>
+                  <a href="robo.php">
+                    <img src="images/thetravelers_thumbnail.jpg" />
+                  </a>
+                </div>
+                <div class="portfolio">
+                  <a href="robo.php">
+                    <img src="images/thetravelers_thumbnail.jpg" />
+                  </a>
+                </div>
+                <div class="portfolio">
+                  <a href="robo.php">
+                    <img src="images/thetravelers_thumbnail.jpg" />
+                  </a>
+                </div>
+                <div class="portfolio">
+                  <a href="robo.php">
+                    <img src="images/thetravelers_thumbnail.jpg" />
+                  </a>
                 </div>
                 <div class="portfolio">
                   <a href="robo.php">
