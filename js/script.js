@@ -37,10 +37,10 @@ $(function(){
     });
 
     $(".go-section").click(function(){
-        $(".navbar-collapse").removeClass("in")
-        data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]")
+        $(".navbar-collapse").removeClass("in");
+        data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]");
         $('html, body').animate({
-            scrollTop: parseInt(data_divisor.offset().top - 81)
+            scrollTop: parseInt(data_divisor.offset().top - 60)
         }, 1500);
         return false;
     });

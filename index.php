@@ -7,29 +7,10 @@
   <?php include('assets.html') ?>
 </head>
 <body>
-<nav id="Navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div id="blocos">&nbsp;</div>
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a data-divisor="1"  class="go-section" href="#">Home</a></li>
-        <li><a data-divisor="2" class="go-section" href="#">Projetos</a></li>
-        <li><a data-divisor="3" class="go-section" href="#">Equipe</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php
+define('INDEX',true);
+?>
+<?php include('nav.php') ?>
 <div class="container-fluid">
     <div class="parallax div1" data-divisor="1">
         <div class="container">
@@ -166,7 +147,6 @@
     </div>
 </div>
 
-<div style="margin-top:70px"> </div>
 <?php include('footer.html') ?>
 </body>
 </html>
