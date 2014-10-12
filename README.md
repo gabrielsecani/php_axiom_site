@@ -4,7 +4,7 @@
 * added Google analytics
 * added nav.php for site navigation
 * adjusts about css and others javascripts settings
-
+* others adjusts in navigation bar
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
@@ -37,3 +37,5 @@ If you need to talk to us, contact us by using our e-mail below.
 [Gabriel Lucas](mailto://gabrielltr84@gmail.com)
 [Marco Aurélio]
 [Fernando Seguim]
+
+We are Axiom Team!
