@@ -97,6 +97,7 @@ html{
     .div1, .div2, .div3{
     background-size: cover ;
     }
+
 }
 
 .content{
@@ -220,8 +221,31 @@ footer div{
 }
 #abreContato{
     position:absolute;
-    bottom: 10px;
-    right: 210px;
+    bottom: 0px;
+    right: 5%;
+}
+@media (min-width: 768px) {
+    #abreContato{
+        right: 5%;
+    }
+}
+@media (min-width: 850px) {
+    #abreContato{
+        right: 10%;
+    }
+}
+@media (min-width: 1200px) {
+    #abreContato{
+        right: 15%;
+    }
+}
+@media (min-width: 1330px) {
+    #abreContato{
+        right: 20%;
+    }
+}
+#abreContato img{
+    height: 60px;
 }
 #contato{
     display: none;
@@ -240,7 +264,7 @@ footer div{
 #backgroundContato{
     background:url('../images/old_moon.png');
     position:absolute;
-    bottom:50px;
+    bottom:60px;
     width:100%;
     left:0;
 }
@@ -269,6 +293,7 @@ footer div{
     width: 33.333333%;
     position: relative;
     float: left;
+    padding: 4px 4px 5px 5px;
 }
 
 .portfolio img{

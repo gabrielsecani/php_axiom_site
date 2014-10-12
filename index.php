@@ -15,11 +15,18 @@ define('INDEX',true);
     <div class="parallax div1" data-divisor="1">
         <div class="container">
             <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                
-                <p>
-                    Donec eget arcu at est feugiat ultrices et id dolor. Vestibulum luctus sit amet orci a sollicitudin. Etiam scelerisque ligula sit amet nulla pulvinar, vitae luctus massa commodo. Donec nec metus vel nulla dictum tempor. Vestibulum felis risus, convallis in mattis quis, eleifend eget nulla. Vestibulum sit amet tortor a tellus tempus varius. Suspendisse pretium lacus et pulvinar sagittis. Integer non tincidunt nulla, ut tempor tellus. Maecenas adipiscing euismod sodales. Maecenas egestas nisi sit amet sagittis fermentum. Quisque odio nunc, rutrum vel augue vitae, dictum hendrerit ligula. Pellentesque tincidunt eleifend urna convallis consectetur. Sed eu orci diam. Mauris et metus vestibulum, lobortis dolor sed, aliquam dui. Nulla feugiat, urna ut egestas mattis, tortor nibh placerat sapien, at scelerisque justo magna ut odio.
+                <h2></h2>
+                <p class="pull-left" style="padding-right: 40px">
+                    <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10723851_778258948883700_2110759328_a.jpg" title="Foto do time">
                 </p>
+                <div style="padding: 20px;"><p>
+                    O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
+                    O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
+                    Não obstante, a necessidade de renovação processual estimula a padronização do investimento em reciclagem técnica.
+                    O cuidado em identificar pontos críticos no fenômeno da Internet possibilita uma melhor visão global dos índices pretendidos.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -59,6 +66,7 @@ define('INDEX',true);
                     <img src="images/thetravelers_thumbnail.jpg" />
                   </a>
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -141,7 +149,8 @@ define('INDEX',true);
                             </div>
                         </article>
                     </div>
-                </div>
+                </div><br>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
