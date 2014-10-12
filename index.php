@@ -95,10 +95,10 @@ define('INDEX',true);
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.doe@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-gplus"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
                                 </ul>
                             </div>
                         </article>
@@ -113,10 +113,9 @@ define('INDEX',true);
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
                                 </ul>
                             </div>
                         </article>
@@ -131,10 +130,8 @@ define('INDEX',true);
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">a.doe@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-twt"></i></a></li>
                                 </ul>
                             </div>
                         </article>
@@ -148,10 +145,10 @@ define('INDEX',true);
                             </div>
                             <div class="boxContent boxSocial"> <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">p.anderson66@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a> </li>
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a> </li>
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a> </li>
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i> </a> </li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-gplus"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
                                 </ul>
                             </div>
                         </article>

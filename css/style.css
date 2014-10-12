@@ -392,3 +392,15 @@ ul.socialNetwork li {
     top: 100px;
     margin-left: -50px;
 }
+
+.social-icon{
+    width:35px;
+    height:35px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.icon-facebook{   background: url("../images/social/social_fb.png"); }
+.icon-linkedin{   background: url("../images/social/social_linkedin.png"); }
+.icon-gplus{   background: url("../images/social/social_gplus.png"); }
+.icon-blog{   background: url("../images/social/social_blog.png"); }
+.icon-twt{   background: url("../images/social/social_twt.png"); }
