@@ -296,14 +296,30 @@ footer div{
     padding: 4px 4px 5px 5px;
 }
 
+.portfolio h2{
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding:5px;
+    font-size: 1.5em;
+    bottom: 40px;
+}
+
 .portfolio img{
     max-width: 100%;
     max-height: 100%;
 }
 
+.BWFilter,  .BWfade{
+    left:0 !important;
+}
+
 @media (max-width: 767px){
     .portfolio{
         clear:both;
+        width:100%;
+    }
+    .portfolio img{
         width:100%;
     }
 }

@@ -36,34 +36,41 @@ define('INDEX',true);
             <div class="content">
                 <h2>Projects</h2>
 
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Pizza Hut</h2>
+                    <img src="images/works/w01.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                    <h2>Fox Doido</h2>
+                    <img src="images/works/w02.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Impala Overpower</h2>
+                    <img src="images/works/w03.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
+
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Pega Fogo Cabaré</h2>
+                    <img src="images/works/w04.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Tiazinha do Microfone</h2>
+                    <img src="images/works/w05.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Gato do Gueto</h2>
+                    <img src="images/works/w06.jpg" />
                   </a>
                 </div>
                 <div class="clearfix"></div>
