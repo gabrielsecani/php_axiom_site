@@ -1,6 +1,6 @@
-<?php include_once("analyticstracking.php") ?>
+﻿<?php include_once("analyticstracking.php") ?>
+<div id="blocos">&nbsp;</div>
 <nav id="Navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div id="blocos">&nbsp;</div>
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
         <div class="navbar-header">

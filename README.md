@@ -1,5 +1,9 @@
 # README #
 
+## 2014-10-15
+* changed background home
+* bigger side blocks size
+
 ## 2014-10-12 @ mudancas1012
 * added Google analytics
 * added nav.php for site navigation

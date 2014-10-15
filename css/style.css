@@ -80,7 +80,7 @@ html{
     min-height: 800px;
 }
 .div1 {
-    background: url(../images/background1.jpg) fixed;
+    background: url(../images/bghome.jpg) fixed;
 }
 .div2 {
     background: url(../images/background2.jpg) fixed;
@@ -163,8 +163,8 @@ html{
 }
 #blocos{
   background: url(../images/blocos.png) no-repeat;
-  height: 90px;
-  background-size: 79px;
+  height: 133px;
+  background-size: 130px;
   position: fixed;
   z-index: 1040;
   width: 190px;
@@ -179,7 +179,7 @@ a.carousel-control:hover{
 }
 
 footer{
-    background: #080808;
+    background: #000;
     padding: 20px;
     text-align: center;
     z-index: 1920;
