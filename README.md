@@ -1,5 +1,15 @@
 # README #
 
+## 2014-10-15
+* changed background home
+* bigger side blocks size
+
+## 2014-10-12 @ mudancas1012
+* added Google analytics
+* added nav.php for site navigation
+* adjusts about css and others javascripts settings
+* others adjusts in navigation bar
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
@@ -27,9 +37,9 @@ This README would normally document whatever steps are necessary to get your app
 If you need to talk to us, contact us by using our e-mail below.
 
 
-Lucas Gomide: lucaslg200@gmail.com 
-Gabriel Lucas: gabrielltr84@gmail.com
+[Lucas Gomide](mailto://lucaslg200@gmail.com)
+[Gabriel Lucas](mailto://gabrielltr84@gmail.com)
+[Marco Aurélio]
+[Fernando Seguim]
 
-
-* Repo owner or admin
-* Other community or team contact
+We are Axiom Team!

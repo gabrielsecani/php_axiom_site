@@ -9,38 +9,21 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap-gallery.min.css">
 </head>
 <body>
-<nav id="Navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div id="blocos">&nbsp;</div>
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Equipe</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<?php
+define("PROJETO", "Robocup - FIAP");
+?>
+<?php include('nav.php') ?>
 <div class="container-fluid">
+    <!--
     <div class="container">
-      <div class="btn-group-vertical">
-        <button data-divisor="1" class="btn btn-default go-section"><i class="fa fa-briefcase"></i></button>
-        <button data-divisor="2" class="btn btn-default go-section"><i class="fa fa-location-arrow"></i></i></button>
-        <button data-divisor="3" class="btn btn-default go-section"><i class="fa fa-area-chart"></i></button>
-      </div>
+        <div class="btn-group-vertical">
+            <button data-divisor="1" class="btn btn-default go-section"><i class="fa fa-briefcase"></i></button>
+            <button data-divisor="2" class="btn btn-default go-section"><i class="fa fa-location-arrow"></i></i></button>
+            <button data-divisor="3" class="btn btn-default go-section"><i class="fa fa-area-chart"></i></button>
+        </div>
     </div>
-    <div class="parallax div1" data-divisor="1">
+    -->
+    <div class="parallax div1" data-divisor="1" id="scope">
         <div class="container">
             <div class="content">
               <h2>Scope project</h2>
@@ -52,7 +35,7 @@
         </div>
     </div>
 
-    <div class="parallax div2" data-divisor="2">
+    <div class="parallax div2" data-divisor="2" id="objective">
         <div class="container">
             <div class="content">
               <h2>Objective</h2>
@@ -69,7 +52,7 @@
         </div>
     </div>
 
-    <div class="parallax div3" data-divisor="3">
+    <div class="parallax div3" data-divisor="3" id="gallery">
         <div class="container">
             <div class="content">
                 <h2>Galery (:</h2>
@@ -118,7 +101,6 @@
   });
 </script>
 
-<div style="margin-top:70px"> </div>
 <?php include('footer.html') ?>
 </body>
 </html>                                   

@@ -7,38 +7,26 @@
   <?php include('assets.html') ?>
 </head>
 <body>
-<nav id="Navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div id="blocos">&nbsp;</div>
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a data-divisor="1"  class="go-section" href="#">Home</a></li>
-        <li><a data-divisor="2" class="go-section" href="#">Projetos</a></li>
-        <li><a data-divisor="3" class="go-section" href="#">Equipe</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<?php
+define('INDEX',true);
+?>
+<?php include('nav.php') ?>
 <div class="container-fluid">
     <div class="parallax div1" data-divisor="1">
         <div class="container">
             <div class="content">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                
-                <p>
-                    Donec eget arcu at est feugiat ultrices et id dolor. Vestibulum luctus sit amet orci a sollicitudin. Etiam scelerisque ligula sit amet nulla pulvinar, vitae luctus massa commodo. Donec nec metus vel nulla dictum tempor. Vestibulum felis risus, convallis in mattis quis, eleifend eget nulla. Vestibulum sit amet tortor a tellus tempus varius. Suspendisse pretium lacus et pulvinar sagittis. Integer non tincidunt nulla, ut tempor tellus. Maecenas adipiscing euismod sodales. Maecenas egestas nisi sit amet sagittis fermentum. Quisque odio nunc, rutrum vel augue vitae, dictum hendrerit ligula. Pellentesque tincidunt eleifend urna convallis consectetur. Sed eu orci diam. Mauris et metus vestibulum, lobortis dolor sed, aliquam dui. Nulla feugiat, urna ut egestas mattis, tortor nibh placerat sapien, at scelerisque justo magna ut odio.
+                <h2></h2>
+                <p class="pull-left" style="padding-right: 40px">
+                    <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10723851_778258948883700_2110759328_a.jpg" title="Foto do time">
                 </p>
+                <div style="padding: 20px;"><p>
+                    O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
+                    O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
+                    Não obstante, a necessidade de renovação processual estimula a padronização do investimento em reciclagem técnica.
+                    O cuidado em identificar pontos críticos no fenômeno da Internet possibilita uma melhor visão global dos índices pretendidos.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -48,36 +36,44 @@
             <div class="content">
                 <h2>Projects</h2>
 
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Pizza Hut</h2>
+                    <img src="images/works/w01.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                    <h2>Fox Doido</h2>
+                    <img src="images/works/w02.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Impala Overpower</h2>
+                    <img src="images/works/w03.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
+
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Pega Fogo Cabaré</h2>
+                    <img src="images/works/w04.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Tiazinha do Microfone</h2>
+                    <img src="images/works/w05.jpg" />
                   </a>
                 </div>
-                <div class="portfolio">
+                <div class="portfolio bwWrapper">
                   <a href="robo.php">
-                    <img src="images/thetravelers_thumbnail.jpg" />
+                      <h2>Gato do Gueto</h2>
+                    <img src="images/works/w06.jpg" />
                   </a>
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
@@ -99,10 +95,10 @@
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.doe@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-gplus"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
                                 </ul>
                             </div>
                         </article>
@@ -117,10 +113,9 @@
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
                                 </ul>
                             </div>
                         </article>
@@ -135,10 +130,8 @@
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">a.doe@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-twt"></i></a></li>
                                 </ul>
                             </div>
                         </article>
@@ -152,21 +145,21 @@
                             </div>
                             <div class="boxContent boxSocial"> <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">p.anderson66@ashley.com</a>
                                 <ul class="socialNetwork mt15">
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a> </li>
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a> </li>
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a> </li>
-                                    <li> <a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i> </a> </li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-gplus"></i></a></li>
+                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
                                 </ul>
                             </div>
                         </article>
                     </div>
-                </div>
+                </div><br>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
 
-<div style="margin-top:70px"> </div>
 <?php include('footer.html') ?>
 </body>
 </html>

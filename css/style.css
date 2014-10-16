@@ -56,7 +56,9 @@ html{
         margin:4px 0 0 96px !important;
     }
     .nav li.active a,
-    .nav li a{
+    .nav li a,
+    .dropdown-menu li.active a,
+    .dropdown-menu li a{
         border-bottom:1px solid #ccc;
     }
     .nav li:last-child a{
@@ -75,9 +77,10 @@ html{
     background-repeat: repeat-x;
     height: 100%;
     position: relative;
+    min-height: 800px;
 }
 .div1 {
-    background: url(../images/background1.jpg) fixed;
+    background: url(../images/bghome.jpg) fixed;
 }
 .div2 {
     background: url(../images/background2.jpg) fixed;
@@ -91,9 +94,10 @@ html{
     background-repeat: repeat-x;;
 }
 @media (max-width: 765px) {
-  .div1, .div2, .div3{
+    .div1, .div2, .div3{
     background-size: cover ;
-  }
+    }
+
 }
 
 .content{
@@ -159,8 +163,8 @@ html{
 }
 #blocos{
   background: url(../images/blocos.png) no-repeat;
-  height: 90px;
-  background-size: 79px;
+  height: 133px;
+  background-size: 130px;
   position: fixed;
   z-index: 1040;
   width: 190px;
@@ -175,7 +179,7 @@ a.carousel-control:hover{
 }
 
 footer{
-    background: #080808;
+    background: #000;
     padding: 20px;
     text-align: center;
     z-index: 1920;
@@ -207,15 +211,41 @@ footer div{
     padding:10px;
 }
 .gallery a img{
-    width: 260px;
+    width: 100%;
+}
+.gallery.row{
+    margin:0px !important;
 }
 #gallery-modal .btn-close{
     color:#c9302c;
 }
 #abreContato{
     position:absolute;
-    bottom: 10px;
-    right: 210px;
+    bottom: 0px;
+    right: 5%;
+}
+@media (min-width: 768px) {
+    #abreContato{
+        right: 5%;
+    }
+}
+@media (min-width: 850px) {
+    #abreContato{
+        right: 10%;
+    }
+}
+@media (min-width: 1200px) {
+    #abreContato{
+        right: 15%;
+    }
+}
+@media (min-width: 1330px) {
+    #abreContato{
+        right: 20%;
+    }
+}
+#abreContato img{
+    height: 60px;
 }
 #contato{
     display: none;
@@ -234,7 +264,7 @@ footer div{
 #backgroundContato{
     background:url('../images/old_moon.png');
     position:absolute;
-    bottom:50px;
+    bottom:60px;
     width:100%;
     left:0;
 }
@@ -263,6 +293,16 @@ footer div{
     width: 33.333333%;
     position: relative;
     float: left;
+    padding: 4px 4px 5px 5px;
+}
+
+.portfolio h2{
+    position: absolute;
+    background: #000;
+    color: #fff;
+    padding:5px;
+    font-size: 1.5em;
+    bottom: 40px;
 }
 
 .portfolio img{
@@ -270,9 +310,16 @@ footer div{
     max-height: 100%;
 }
 
+.BWFilter,  .BWfade{
+    left:0 !important;
+}
+
 @media (max-width: 767px){
     .portfolio{
         clear:both;
+        width:100%;
+    }
+    .portfolio img{
         width:100%;
     }
 }
@@ -345,3 +392,15 @@ ul.socialNetwork li {
     top: 100px;
     margin-left: -50px;
 }
+
+.social-icon{
+    width:35px;
+    height:35px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.icon-facebook{   background: url("../images/social/social_fb.png"); }
+.icon-linkedin{   background: url("../images/social/social_linkedin.png"); }
+.icon-gplus{   background: url("../images/social/social_gplus.png"); }
+.icon-blog{   background: url("../images/social/social_blog.png"); }
+.icon-twt{   background: url("../images/social/social_twt.png"); }
