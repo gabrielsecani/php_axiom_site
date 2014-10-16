@@ -4,7 +4,7 @@ body{
 body > .container-fluid,
 body > #project{
     padding: 0 !important;
-    margin-top: 58px;
+    margin-top: 40px;
 }
 html{
     position: relative;
