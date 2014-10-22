@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Axiom - Robo Wall-E</title>
   <?php include('assets.html') ?>
-  <script type="text/javascript" src="js/bootstrap-gallery.js"></script>
   <script type="text/javascript" src="js/jquery.resizecrop-1.0.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-gallery.js"></script>
   <link rel="stylesheet" type="text/css" href="css/bootstrap-gallery.min.css">
 </head>
 <body>
@@ -15,15 +15,6 @@ define("PROJETO", "Robocup - FIAP");
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-    <!--
-    <div class="container">
-        <div class="btn-group-vertical">
-            <button data-divisor="1" class="btn btn-default go-section"><i class="fa fa-briefcase"></i></button>
-            <button data-divisor="2" class="btn btn-default go-section"><i class="fa fa-location-arrow"></i></i></button>
-            <button data-divisor="3" class="btn btn-default go-section"><i class="fa fa-area-chart"></i></button>
-        </div>
-    </div>
-    -->
     <div class="parallax div1" data-divisor="1" id="scope">
         <div class="container">
             <div class="content">
@@ -81,7 +72,21 @@ define("PROJETO", "Robocup - FIAP");
         </div>
     </div>
 </div>
-
+<script type="text/javascript">
+    $(document).ready(function($) {
+        //resize img gallery
+        $('#gallery img').resizecrop({
+          width:300,
+          height:250,
+          vertical:"left"
+        });  
+        
+        //gallery
+        $('.gallery').bootstrapGallery({
+          iconset: "fontawesome"
+        });
+    });
+</script>
 <?php include('footer.html') ?>
 </body>
 </html>                                   

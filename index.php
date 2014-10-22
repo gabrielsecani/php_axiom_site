@@ -12,7 +12,7 @@ define('INDEX',true);
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-    <div class="parallax div1" data-divisor="1">
+    <div class="parallax div1" data-speed="30" data-divisor="1">
         <div class="container">
             <div class="content">
                 <h2></h2>
@@ -31,7 +31,7 @@ define('INDEX',true);
         </div>
     </div>
 
-    <div class="parallax div3" data-divisor="2" id="projects">
+    <div class="parallax div3" data-speed="20" data-divisor="2" id="projects">
         <div class="container">
             <div class="content">
                 <h2>Projects</h2>
@@ -78,7 +78,7 @@ define('INDEX',true);
         </div>
     </div>
 
-    <div class="parallax div2" data-divisor="3" id="team">
+    <div class="parallax div2" data-speed="40" data-divisor="3" id="team">
         <div class="container">
             <div class="content">
                 <h2>Team</h2>
