@@ -18,18 +18,13 @@
                 <?php if (defined("PROJETO")) {
                 /// Navegação do projeto
                 ?>
-                <li class="pull-right navbar-text"><?php echo PROJETO; ?></li>
                 <li><a href="index.php">Home</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos<span class="caret"></span>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="index.php#projects">&Iacute;ndice</a></li>
-                        <li class="nav-divider"></li>
                         <? /// TODO: Fazer iteração dos projetos menos o projeto atual ?>
-                        <li><a href="robo.php">Robocup 1</a></li>
-                        <li><a href="robo.php">Site</a></li>
-                        <li><a href="robo.php">Sei la o que</a></li>
-                        <li><a href="robo.php">tra la la</a></li>
+                        <li><a href="robo.php">Robocup</a></li>
+                        <li class="nav-divider"></li>
                     </ul>
                 </li>
                 <li class="active"><a href="#scope" class="go-section" data-divisor="1">Escopo</a></li>

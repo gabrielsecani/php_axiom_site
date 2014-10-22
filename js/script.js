@@ -84,8 +84,18 @@ $(function(){
         }
 
     );
-
-
+	
+	//resize img gallery
+	$('#gallery img').resizecrop({
+      width:300,
+      height:250,
+      vertical:"left"
+    });  
+	
+	//gallery
+	$('.gallery').bootstrapGallery({
+      iconset: "fontawesome"
+    });
 }); // jQuery
 
 function get_offset_height(){

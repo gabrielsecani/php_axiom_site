@@ -6,6 +6,7 @@
   <title>Axiom - Robo Wall-E</title>
   <?php include('assets.html') ?>
   <script type="text/javascript" src="js/bootstrap-gallery.js"></script>
+  <script type="text/javascript" src="js/jquery.resizecrop-1.0.3.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/bootstrap-gallery.min.css">
 </head>
 <body>
@@ -53,53 +54,33 @@ define("PROJETO", "Robocup - FIAP");
     </div>
 
     <div class="parallax div3" data-divisor="3" id="gallery">
+
         <div class="container">
             <div class="content">
                 <h2>Galery (:</h2>
                 <div class="gallery row">
-                    <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg">
-                        <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg" alt="thumb1">
+                    <a title="testando" data-gallery class="col-xs-6 col-sm-4"  href="images/gallery/robo_1.jpg">
+                        <img title="TESTES IMA" src="images/gallery/robo_1.jpg" alt="thumb1">
                     </a>
-                    <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165073.jpg">
-                        <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165073.jpg" alt="thumb1">
+                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_2.jpg">
+                        <img src="images/gallery/robo_2.jpg" alt="thumb1">
                     </a>
-                    <a class="col-xs-6 col-sm-4" href="http://www.thinksnaps.com/wp-content/uploads/2014/09/storymaker-best-hubble-space-telescope-images-20092-514x2681.jpg">
-                        <img src="http://www.thinksnaps.com/wp-content/uploads/2014/09/storymaker-best-hubble-space-telescope-images-20092-514x2681.jpg" alt="thumb1">
+                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_3.jpg">
+                        <img src="images/gallery/robo_3.jpg" alt="thumb1">
                     </a>
-                </div>
+				</div>
                 <div class="gallery row">
-                    <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg">
-                        <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg" alt="thumb1">
+                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_4.jpg">
+                        <img src="images/gallery/robo_4.jpg" alt="thumb1">
                     </a>
-                    <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165073.jpg">
-                        <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165073.jpg" alt="thumb1">
-                    </a>
-                    <a class="col-xs-6 col-sm-4" href="http://www.thinksnaps.com/wp-content/uploads/2014/09/storymaker-best-hubble-space-telescope-images-20092-514x2681.jpg">
-                        <img src="http://www.thinksnaps.com/wp-content/uploads/2014/09/storymaker-best-hubble-space-telescope-images-20092-514x2681.jpg" alt="thumb1">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg">
-                        <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165070.jpg" alt="thumb1">
-                    </a>
-                    <a class="col-xs-6 col-sm-4" href="http://9pixs.com/wp-content/uploads/2014/06/images_1404165073.jpg">
-                        <img src="http://9pixs.com/wp-content/uploads/2014/06/images_1404165073.jpg" alt="thumb1">
-                    </a>
-                    <a class="col-xs-6 col-sm-4" href="http://www.thinksnaps.com/wp-content/uploads/2014/09/storymaker-best-hubble-space-telescope-images-20092-514x2681.jpg">
-                        <img src="http://www.thinksnaps.com/wp-content/uploads/2014/09/storymaker-best-hubble-space-telescope-images-20092-514x2681.jpg" alt="thumb1">
+                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_5.jpg">
+                        <img src="images/gallery/robo_5.jpg" alt="thumb1">
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('.gallery').bootstrapGallery({
-      iconset: "fontawesome"
-    });
-  });
-</script>
 
 <?php include('footer.html') ?>
 </body>
