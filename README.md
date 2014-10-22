@@ -1,5 +1,9 @@
 # README #
 
+##2014-10-22
+* refactoring parallax and some js.
+* bug fixing in navigation, drop-down menu 
+
 ## 2014-10-15
 * changed background home
 * bigger side blocks size

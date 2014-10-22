@@ -19,12 +19,10 @@
                 /// Navegação do projeto
                 ?>
                 <li><a href="index.php">Home</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos<span class="caret"></span>
+                <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <? /// TODO: Fazer iteração dos projetos menos o projeto atual ?>
                         <li><a href="robo.php">Robocup</a></li>
-                        <li class="nav-divider"></li>
                     </ul>
                 </li>
                 <li class="active"><a href="#scope" class="go-section" data-divisor="1">Escopo</a></li>
