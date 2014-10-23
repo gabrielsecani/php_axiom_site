@@ -14,7 +14,7 @@ define('INDEX',true);
 <div class="container-fluid">
     <div data-speed="30" data-divisor="1">
         <div class="container">
-            <div class="content">
+            <div class="scrollblock">
                 <div style="padding: 20px;"><p>
                     O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
                     O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
@@ -32,7 +32,7 @@ define('INDEX',true);
             <div id="fly">&nbsp;</div>
         </div>
         <div class="container">
-            <div class="content">
+            <div class="scrollblock">
                 <h2>Projects</h2>
 
                 <div class="portfolio bwWrapper">
@@ -48,7 +48,7 @@ define('INDEX',true);
 
     <div data-speed="40" data-divisor="3" id="team">
         <div class="container">
-            <div class="content">
+            <div class="scrollblock">
                 <h2>Team</h2>
                 <div class="row">
                     <div class="col-xs-12">
