@@ -1,5 +1,8 @@
 # README #
 
+##2014-10-23
+* adding gallery
+
 ##2014-10-22
 * refactoring parallax and some js.
 * bug fixing in navigation, drop-down menu 
