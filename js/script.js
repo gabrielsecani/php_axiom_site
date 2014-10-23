@@ -110,4 +110,5 @@ $(function(){
         });
         return offset
     }
+
 }); // jQuery

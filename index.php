@@ -12,7 +12,7 @@ define('INDEX',true);
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-    <div class="parallax div1" data-speed="30" data-divisor="1">
+    <div data-speed="30" data-divisor="1">
         <div class="container">
             <div class="content">
                 <div style="padding: 20px;"><p>
@@ -26,7 +26,7 @@ define('INDEX',true);
             </div>
         </div>
     </div>
-    <div class="parallax div3" data-speed="20" data-divisor="2" id="projects">
+    <div data-speed="20" data-divisor="2" id="projects">
         
         <div class="scrollblock">
             <div id="fly">&nbsp;</div>
@@ -36,40 +36,9 @@ define('INDEX',true);
                 <h2>Projects</h2>
 
                 <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Pizza Hut</h2>
-                    <img src="images/works/w01.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                    <h2>Fox Doido</h2>
-                    <img src="images/works/w02.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Impala Overpower</h2>
-                    <img src="images/works/w03.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-
-                  <a href="robo.php">
-                      <h2>Pega Fogo Cabaré</h2>
-                    <img src="images/works/w04.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Tiazinha do Microfone</h2>
-                    <img src="images/works/w05.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Gato do Gueto</h2>
-                    <img src="images/works/w06.jpg" />
+                  <a href="robocup.php">
+                      <h2>wall-E - RoboCup 2014</h2>
+                    <img src="images/gallery/robocup/robocup19.jpg" />
                   </a>
                 </div>
                 <div class="clearfix"></div>
@@ -77,7 +46,7 @@ define('INDEX',true);
         </div>
     </div>
 
-    <div class="parallax div2" data-speed="40" data-divisor="3" id="team">
+    <div data-speed="40" data-divisor="3" id="team">
         <div class="container">
             <div class="content">
                 <h2>Team</h2>
