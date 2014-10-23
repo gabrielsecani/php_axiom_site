@@ -1,5 +1,6 @@
 $(function(){
-    //Parallex
+
+     //Parallex
     offset = get_offset_height()
     $('div.parallax').each(function(){
         var $obj = $(this);

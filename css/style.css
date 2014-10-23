@@ -1,5 +1,8 @@
 body{
     text-align: justify;
+    background:url('../images/bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 body > .container-fluid,
 body > #project{
@@ -8,7 +11,6 @@ body > #project{
 }
 html{
     position: relative;
-    background-color:#000;
 }
 
 .container{
@@ -55,6 +57,12 @@ html{
     .navbar-brand{
         margin:4px 0 0 96px !important;
     }
+    body{
+        background-position: top;
+    }
+      #blocos{
+        display: none;
+      }
     .nav li.active a,
     .nav li a,
     .dropdown-menu li.active a,
@@ -72,27 +80,6 @@ html{
 .navbar-toggle{
   margin-top: 23px;
 }
-.parallax{
-    width: 100%;
-    background-repeat: repeat-x;
-    height: 100%;
-    position: relative;
-    min-height: 800px;
-}
-.div1 {
-    background: url(../images/bghome.jpg) fixed;
-}
-.div2 {
-    background: url(../images/background2.jpg) fixed;
-}
-.div3 {
-    background: url(../images/background3.jpg) fixed ;
-}
-.div1, .div2, .div3{
-    background-size: 100% auto;
-    background-color:#000;
-    background-repeat: repeat-x;;
-}
 @media (max-width: 765px) {
     .div1, .div2, .div3{
     background-size: cover ;
@@ -105,7 +92,6 @@ html{
     color: #fff;
     margin: 40px 0;
     height: 100%;
-    background: url(../images/background_content.png) repeat;
 }
 .content > h2,
 .content > p {
@@ -160,6 +146,7 @@ html{
   .carousel-caption p {
     font-size: 16px;
   }
+
 }
 #blocos{
   background: url(../images/blocos.png) no-repeat;
@@ -536,4 +523,18 @@ opacity:0.1}
     font-size: 18px;
     width: 100%;
     color: #fff;
+}
+
+.scrollblock{
+    width: auto;
+    top:60px !important;
+    height: 100%;
+    z-index: 2;
+}
+
+#fly{
+    background:url('../images/parallax/wall_caindo1.png') no-repeat;
+    background-size: 100% ;
+    height: 100%;
+    width: 270px;
 }

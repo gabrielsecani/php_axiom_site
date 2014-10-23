@@ -149,9 +149,7 @@ define("PROJETO", "Robocup - FIAP");
         $('#gallery img').resizecrop({
           width:300,
           height:150,
-
-      vertical:"top"
-
+          vertical:"top"
         });  
         
         //gallery
