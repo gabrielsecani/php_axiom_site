@@ -25,7 +25,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="index.php#projects">&Iacute;ndice</a></li>
                         <li class="nav-divider"></li>
-                        <li><a href="robo.php">Robocup 1</a></li>
+                        <li><a href="robocup.php">Robocup 1</a></li>
                     </ul>
                 </li>
                 <li class="active"><a href="#scope" class="go-section" data-divisor="1">Escopo</a></li>
