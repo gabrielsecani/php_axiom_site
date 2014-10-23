@@ -6,8 +6,8 @@
   <title>Axiom - Robo Wall-E</title>
   <?php include('assets.html') ?>
   <script type="text/javascript" src="js/jquery.resizecrop-1.0.3.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap-gallery.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-gallery.min.css">
+  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+  <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <?php
@@ -55,21 +55,21 @@ define("PROJETO", "Robocup - FIAP");
             <div class="content">
                 <h2>Galery (:</h2>
                 <div class="gallery row">
-                    <a title="testando" data-gallery class="col-xs-6 col-sm-4"  href="images/gallery/robo_1.jpg">
+                    <a rel="prettyPhoto[robocup]" title="testando" data-gallery class="col-xs-6 col-sm-4"  href="images/gallery/robo_1.jpg">
                         <img title="TESTES IMA" src="images/gallery/robo_1.jpg" alt="thumb1">
                     </a>
-                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_2.jpg">
+                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4" href="images/gallery/robo_2.jpg">
                         <img src="images/gallery/robo_2.jpg" alt="thumb1">
                     </a>
-                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_3.jpg">
+                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4" href="images/gallery/robo_3.jpg">
                         <img src="images/gallery/robo_3.jpg" alt="thumb1">
                     </a>
-				</div>
+				        </div>
                 <div class="gallery row">
-                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_4.jpg">
+                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4" href="images/gallery/robo_4.jpg">
                         <img src="images/gallery/robo_4.jpg" alt="thumb1">
                     </a>
-                    <a class="col-xs-6 col-sm-4" href="images/gallery/robo_5.jpg">
+                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4" href="images/gallery/robo_5.jpg">
                         <img src="images/gallery/robo_5.jpg" alt="thumb1">
                     </a>
                 </div>
@@ -77,7 +77,7 @@ define("PROJETO", "Robocup - FIAP");
         </div>
     </div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" charset="utf-8">
     $(document).ready(function($) {
         //resize img gallery
         $('#gallery img').resizecrop({
@@ -87,9 +87,7 @@ define("PROJETO", "Robocup - FIAP");
         });  
         
         //gallery
-        $('.gallery').bootstrapGallery({
-          iconset: "fontawesome"
-        });
+        $("a[rel^='prettyPhoto']").prettyPhoto({theme:'pp_default'});
     });
 </script>
 <?php include('footer.html') ?>
