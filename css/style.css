@@ -527,3 +527,13 @@ transform:scale(0.7);
 opacity:0.1}
 
 }
+
+#breadcrumbs{
+    text-align: right;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}

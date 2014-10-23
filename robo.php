@@ -15,6 +15,11 @@ define("PROJETO", "Robocup - FIAP");
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
+  <div id="breadcrumbs">
+    <div class="container">
+      <?php echo "Você esta em  " . PROJETO ; ?>
+    </div>
+  </div>
     <div class="parallax div1" data-divisor="1" id="scope">
         <div class="container">
             <div class="content">

@@ -18,11 +18,14 @@
                 <?php if (defined("PROJETO")) {
                 /// Navegação do projeto
                 ?>
+                <li class="pull-right navbar-text"></li>
                 <li><a href="index.php">Home</a></li>
-                <li>
+                <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="robo.php">Robocup</a></li>
+                        <li><a href="index.php#projects">&Iacute;ndice</a></li>
+                        <li class="nav-divider"></li>
+                        <li><a href="robo.php">Robocup 1</a></li>
                     </ul>
                 </li>
                 <li class="active"><a href="#scope" class="go-section" data-divisor="1">Escopo</a></li>
@@ -42,4 +45,5 @@
 
 
     </div>
+
 </nav>
