@@ -87,10 +87,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/lucas.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4" >
-                                <h3>John DOE</h3>
-                                <p>Executive Director</p>
+                                <h3>Lucas Gomide</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.doe@ashley.com</a>
@@ -105,10 +105,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/gabriel.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Johanna Newsom</h3>
-                                <p>Salesman</p>
+                                <h3>Gabriel L T Ribeiro</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>
@@ -122,10 +122,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/marco.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Alexander Doe</h3>
-                                <p>Graphic designer</p>
+                                <h3>Marco Aurélio</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">a.doe@ashley.com</a>
@@ -138,10 +138,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/fernando.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Pamela Anderson</h3>
-                                <p>Programmer</p>
+                                <h3>Fernando Seguim</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial"> <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">p.anderson66@ashley.com</a>
                                 <ul class="socialNetwork mt15">
