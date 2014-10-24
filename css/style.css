@@ -208,10 +208,10 @@ footer div{
 }
 #abreContato{
     float: right;
-    margin-top: -40px;
-}
-#abreContato img{
+    position: relative; 
     height: 60px;
+    top: 20px; 
+    cursor: pointer;
 }
 #contato{
     display: none;
