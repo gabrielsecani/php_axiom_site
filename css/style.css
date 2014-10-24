@@ -166,7 +166,7 @@ a.carousel-control:hover{
 }
 
 footer{
-    background: #000;
+    background-color: rgba(0,0,0,0.9);
     padding: 20px;
     text-align: center;
     z-index: 1920;
