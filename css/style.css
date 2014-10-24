@@ -207,29 +207,8 @@ footer div{
     color:#c9302c;
 }
 #abreContato{
-    position:absolute;
-    bottom: 0px;
-    right: 5%;
-}
-@media (min-width: 768px) {
-    #abreContato{
-        right: 5%;
-    }
-}
-@media (min-width: 850px) {
-    #abreContato{
-        right: 10%;
-    }
-}
-@media (min-width: 1200px) {
-    #abreContato{
-        right: 15%;
-    }
-}
-@media (min-width: 1330px) {
-    #abreContato{
-        right: 20%;
-    }
+    float: right;
+    margin-top: -40px;
 }
 #abreContato img{
     height: 60px;

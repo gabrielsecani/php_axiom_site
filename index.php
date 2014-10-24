@@ -75,7 +75,7 @@ define('INDEX',true);
                         <article>
                             <div><img src="images/team/gabriel.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Gabriel L T Ribeiro</h3>
+                                <h3>Gabriel Ribeiro</h3>
                                 <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
