@@ -124,18 +124,6 @@ define('INDEX',true);
         </div>
     </div>
 </div>
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-<script type="text/javascript">
-    var s = skrollr.init({
-        edgeStrategy: 'set',
-        easing: {
-            WTF: Math.random,
-            inverted: function(p) {
-                return 1-p;
-            }
-        }
-    });
-</script>
 <?php include('footer.html') ?>
 </body>
 </html>

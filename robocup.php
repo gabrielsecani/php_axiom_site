@@ -161,11 +161,6 @@ define("PROJETO", "Robocup - FIAP");
         $("a[rel^='prettyPhoto']").prettyPhoto({theme:'pp_default'});
     });
 </script>
-
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-<script type="text/javascript">
-    var s = skrollr.init();
-</script>
 <?php include('footer.html') ?>
 </body>
 </html>                                   
