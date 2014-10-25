@@ -539,3 +539,7 @@ opacity:0.1}
     width: 260px;
     left:-3%;
 }
+#overflow-y {
+    height: 100%;
+    overflow-y:scroll; 
+}

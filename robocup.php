@@ -52,93 +52,98 @@ define("PROJETO", "Robocup - FIAP");
     <div class="scrollblock div3" data-divisor="3" id="gallery">
 
         <div class="container">
-            <div class="content" data-100="display:block;top:100%;" data-1400="top:5%;" data-1500="top:0%;" data-1700="top:-15%;" data-1900="top:-25%;" data-2100="top:-45%;" data-2300="top:-75%;" data-2500="top:-105%;" data-2700="top:-130%;">
+            <div class="content" data-100="display:block;top:100%;" data-1400="top:5%;">
                 <h2>Galeria</h2>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup01.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup01.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup02.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup02.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup03.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup03.jpg" alt="Robocup 2014">
-                    </a>
+                <div id="overflow-y">
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup01.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup01.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup02.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup02.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup03.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup03.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup04.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup04.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup05.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup05.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup06.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup06.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup07.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup07.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup08.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup08.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup09.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup09.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup10.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup10.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup11.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup11.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup12.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup12.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup13.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup13.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup14.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup14.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup15.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup15.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup16.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup16.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup17.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup17.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup18.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup18.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup19.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup19.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup20.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup20.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup21.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup21.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div class="gallery row">
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup22.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup22.jpg" alt="Robocup 2014">
+                        </a>
+                        <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup23.jpg">
+                            <img title="TESTES IMA" src="images/gallery/robocup/robocup23.jpg" alt="Robocup 2014">
+                        </a>
+                    </div>
+                    <div style="clear:both"></div>
+
                 </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup04.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup04.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup05.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup05.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup06.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup06.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup07.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup07.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup08.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup08.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup09.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup09.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup10.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup10.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup11.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup11.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup12.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup12.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup13.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup13.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup14.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup14.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup15.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup15.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup16.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup16.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup17.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup17.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup18.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup18.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup19.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup19.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup20.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup20.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup21.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup21.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
-                <div class="gallery row">
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup22.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup22.jpg" alt="Robocup 2014">
-                    </a>
-                    <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup23.jpg">
-                        <img title="TESTES IMA" src="images/gallery/robocup/robocup23.jpg" alt="Robocup 2014">
-                    </a>
-                </div>
+
             </div>
         </div>
     </div>
@@ -159,15 +164,7 @@ define("PROJETO", "Robocup - FIAP");
 
 <script type="text/javascript" src="js/skrollr.min.js"></script>
 <script type="text/javascript">
-    var s = skrollr.init({
-        edgeStrategy: 'set',
-        easing: {
-            WTF: Math.random,
-            inverted: function(p) {
-                return 1-p;
-            }
-        }
-    });
+    var s = skrollr.init();
 </script>
 <?php include('footer.html') ?>
 </body>
