@@ -4,7 +4,7 @@ html{
 
 body{
     text-align: justify;
-    background-image:url('../images/bg_1.jpg');
+    background-image:url('../images/bg.jpg');
     background-color:#000;
     background-size: 100% auto;
     background-position: center;
@@ -205,9 +205,11 @@ footer div{
 .gallery.row{
     margin:0px !important;
 }
+
 #gallery-modal .btn-close{
     color:#c9302c;
 }
+
 #abreContato{
     position:absolute;
     bottom: 0px;

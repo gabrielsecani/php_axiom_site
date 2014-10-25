@@ -20,12 +20,9 @@ define("PROJETO", "Robocup - FIAP");
       <?php echo "Você esta em  " . PROJETO ; ?>
     </div>
   </div>
-    <div class="parallax div1" data-divisor="1" id="scope">
+    <div class="parallax div1">
         <div class="container">
-            <div class="scrollblock">
-                <div id="fly">&nbsp;</div>
-            </div>
-            <div class="content">
+            <div class="content" data-divisor="1" id="scope"  data-250="top:5%;" data-600="top:-100%;">
               <h2>Scope project</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
@@ -37,7 +34,7 @@ define("PROJETO", "Robocup - FIAP");
 
     <div class="scrollblock div2" data-divisor="2" id="objective">
         <div class="container">
-            <div class="content">
+            <div class="content" data-start="display:none;" data-150="display:block;top:100%;" data-400="top:5%;" data-900="top:5%" data-950="top:-10%;" data-1000="top:-30%;" data-1200="top:-100%;">
               <h2>Objective</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
@@ -55,7 +52,7 @@ define("PROJETO", "Robocup - FIAP");
     <div class="scrollblock div3" data-divisor="3" id="gallery">
 
         <div class="container">
-            <div class="content">
+            <div class="content" data-100="display:block;top:100%;" data-1400="top:5%;" data-1500="top:0%;" data-1700="top:-15%;" data-1900="top:-25%;" data-2100="top:-45%;" data-2300="top:-75%;" data-2500="top:-105%;" data-2700="top:-130%;">
                 <h2>Galeria</h2>
                 <div class="gallery row">
                     <a rel="prettyPhoto[robocup]" class="col-xs-6 col-sm-4"  href="images/gallery/robocup/robocup01.jpg">
@@ -160,6 +157,18 @@ define("PROJETO", "Robocup - FIAP");
     });
 </script>
 
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+            WTF: Math.random,
+            inverted: function(p) {
+                return 1-p;
+            }
+        }
+    });
+</script>
 <?php include('footer.html') ?>
 </body>
 </html>                                   
