@@ -3,7 +3,9 @@
 ##2014-10-23
 * adding gallery
 * adding gallery images for Robocup project
-* adding team images 
+* adding team images
+* new export Axiom logo
+* web icon created (untested)
 
 ##2014-10-22
 * refactoring parallax and some js.

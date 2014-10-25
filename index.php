@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Axiom</title>
   <?php include('assets.html') ?>
 </head>
@@ -75,8 +75,7 @@ define('INDEX',true);
                         <article>
                             <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Johanna Newsom</h3>
-                                <p>Salesman</p>
+                                <h3>Gabriel Ribeiro</h3>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>

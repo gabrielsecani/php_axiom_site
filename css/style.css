@@ -98,7 +98,7 @@ body > #project{
 .content > h2,
 .content > p {
     padding: 0 20px;
-    margin:10px 0 15px;
+    margin:6px 0 0;
 }
 /*CAROUSEL*/
 .carousel-caption {
@@ -168,7 +168,7 @@ a.carousel-control:hover{
 }
 
 footer{
-    background: #000;
+    background-color: rgba(0,0,0,0.9);
     padding: 20px;
     text-align: center;
     z-index: 1920;
@@ -211,49 +211,27 @@ footer div{
 }
 
 #abreContato{
-    position:absolute;
-    bottom: 0px;
-    right: 5%;
-}
-@media (min-width: 768px) {
-    #abreContato{
-        right: 5%;
-    }
-}
-@media (min-width: 850px) {
-    #abreContato{
-        right: 10%;
-    }
-}
-@media (min-width: 1200px) {
-    #abreContato{
-        right: 15%;
-    }
-}
-@media (min-width: 1330px) {
-    #abreContato{
-        right: 20%;
-    }
-}
-#abreContato img{
+    float: right;
     height: 60px;
+    cursor: pointer;
+    margin: -20px 0 -20px 0;
 }
 #contato{
     display: none;
 }
 #contato label{
-    color:#000;
+    color:#fff;
 }
 #contato .content{
     margin:0;
 }
 #contato h2{
-    color:#ab181d;
+    color:#fff;
     padding-left: 94px;
     padding-bottom: 20px;
 }
 #backgroundContato{
-    background:url('../images/old_moon.png');
+    background-color: rgba(0,0,0,0.8);
     position:absolute;
     bottom:60px;
     width:100%;

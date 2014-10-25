@@ -3,6 +3,7 @@
  * This example shows settings to use when sending via Google's Gmail servers.
  */
 
+
 if(isset($_POST)){
 
 	$name = utf8_decode($_POST['name']);
