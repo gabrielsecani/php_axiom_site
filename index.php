@@ -15,6 +15,10 @@ define('INDEX',true);
     <div data-speed="30" data-divisor="1">
         <div class="container">
             <div class="content">
+                <div id="walle-end" data-start="bottom:-20%;" data-600="bottom:10%;">
+                    &nbsp;
+                </div>
+
                 <div style="padding: 20px;"><p>
                     O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
                     O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
@@ -27,10 +31,6 @@ define('INDEX',true);
         </div>
     </div>
     <div data-speed="20" data-divisor="2" id="projects">
-        
-        <div class="scrollblock">
-            <div id="fly">&nbsp;</div>
-        </div>
         <div class="container">
             <div class="content">
                 <h2>Projects</h2>
@@ -58,7 +58,6 @@ define('INDEX',true);
                             <div><img src="images/team/lucas.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4" >
                                 <h3>Lucas Gomide</h3>
-                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.doe@ashley.com</a>
@@ -76,7 +75,6 @@ define('INDEX',true);
                             <div><img src="images/team/gabriel.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Gabriel Ribeiro</h3>
-                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>
@@ -93,7 +91,6 @@ define('INDEX',true);
                             <div><img src="images/team/marco.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Marco Aurélio</h3>
-                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">a.doe@ashley.com</a>
@@ -109,7 +106,6 @@ define('INDEX',true);
                             <div><img src="images/team/fernando.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Fernando Seguim</h3>
-                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial"> <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">p.anderson66@ashley.com</a>
                                 <ul class="socialNetwork mt15">
@@ -121,20 +117,13 @@ define('INDEX',true);
                             </div>
                         </article>
                     </div>
+
                 </div><br>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
 </div>
-<script>
-$(document).ready(function() {
-    var scrollorama = $.scrollorama({
-        blocks:'.scrollblock'
-    });
-    scrollorama.animate('#fly',{ delay: 10, duration: 500, property:'left', pin: true, start:0, end:-400 })
-});
-</script>
 <?php include('footer.html') ?>
 </body>
 </html>
