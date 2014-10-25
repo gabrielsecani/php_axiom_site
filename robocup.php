@@ -52,7 +52,7 @@ define("PROJETO", "Robocup - FIAP");
     <div class="scrollblock div3" data-divisor="3" id="gallery">
 
         <div class="container">
-            <div class="content" data-100="display:block;top:100%;" data-1400="top:5%;">
+            <div class="content" style="height:450px" data-100="display:block;top:100%;" data-1400="top:5%;">
                 <h2>Galeria</h2>
                 <div id="overflow-y">
                     <div class="gallery row">
