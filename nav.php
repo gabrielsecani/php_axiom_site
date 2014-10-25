@@ -1,6 +1,6 @@
-<?php include_once("analyticstracking.php") ?>
+﻿<?php include_once("analyticstracking.php") ?>
+<div id="blocos">&nbsp;</div>
 <nav id="Navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div id="blocos">&nbsp;</div>
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="container">
         <div class="navbar-header">
@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="112" height="51" /></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -18,18 +18,14 @@
                 <?php if (defined("PROJETO")) {
                 /// Navegação do projeto
                 ?>
-                <li class="pull-right navbar-text"><?php echo PROJETO; ?></li>
+                <li class="pull-right navbar-text"></li>
                 <li><a href="index.php">Home</a></li>
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos<span class="caret"></span>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projetos<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="index.php#projects">&Iacute;ndice</a></li>
                         <li class="nav-divider"></li>
-                        <? /// TODO: Fazer iteração dos projetos menos o projeto atual ?>
-                        <li><a href="robo.php">Robocup 1</a></li>
-                        <li><a href="robo.php">Site</a></li>
-                        <li><a href="robo.php">Sei la o que</a></li>
-                        <li><a href="robo.php">tra la la</a></li>
+                        <li><a href="robocup.php">Robocup 1</a></li>
                     </ul>
                 </li>
                 <li class="active"><a href="#scope" class="go-section" data-divisor="1">Escopo</a></li>
@@ -49,4 +45,5 @@
 
 
     </div>
+
 </nav>

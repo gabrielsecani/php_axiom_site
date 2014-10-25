@@ -12,13 +12,9 @@ define('INDEX',true);
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-    <div class="parallax div1" data-divisor="1">
+    <div data-speed="30" data-divisor="1">
         <div class="container">
             <div class="content">
-                <h2></h2>
-                <p class="pull-left" style="padding-right: 40px">
-                    <img src="http://scontent-a.cdninstagram.com/hphotos-xaf1/t51.2885-15/10723851_778258948883700_2110759328_a.jpg" title="Foto do time">
-                </p>
                 <div style="padding: 20px;"><p>
                     O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
                     O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
@@ -30,47 +26,19 @@ define('INDEX',true);
             </div>
         </div>
     </div>
-
-    <div class="parallax div3" data-divisor="2" id="projects">
+    <div data-speed="20" data-divisor="2" id="projects">
+        
+        <div class="scrollblock">
+            <div id="fly">&nbsp;</div>
+        </div>
         <div class="container">
             <div class="content">
                 <h2>Projects</h2>
 
                 <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Pizza Hut</h2>
-                    <img src="images/works/w01.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                    <h2>Fox Doido</h2>
-                    <img src="images/works/w02.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Impala Overpower</h2>
-                    <img src="images/works/w03.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-
-                  <a href="robo.php">
-                      <h2>Pega Fogo Cabaré</h2>
-                    <img src="images/works/w04.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Tiazinha do Microfone</h2>
-                    <img src="images/works/w05.jpg" />
-                  </a>
-                </div>
-                <div class="portfolio bwWrapper">
-                  <a href="robo.php">
-                      <h2>Gato do Gueto</h2>
-                    <img src="images/works/w06.jpg" />
+                  <a href="robocup.php">
+                      <h2>wall-E - RoboCup 2014</h2>
+                    <img src="images/gallery/robocup/robocup19.jpg" />
                   </a>
                 </div>
                 <div class="clearfix"></div>
@@ -78,7 +46,7 @@ define('INDEX',true);
         </div>
     </div>
 
-    <div class="parallax div2" data-divisor="3" id="team">
+    <div data-speed="40" data-divisor="3" id="team">
         <div class="container">
             <div class="content">
                 <h2>Team</h2>
@@ -87,10 +55,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/lucas.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4" >
-                                <h3>John DOE</h3>
-                                <p>Executive Director</p>
+                                <h3>Lucas Gomide</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.doe@ashley.com</a>
@@ -105,10 +73,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/gabriel.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Johanna Newsom</h3>
-                                <p>Salesman</p>
+                                <h3>Gabriel Ribeiro</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>
@@ -122,10 +90,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/marco.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Alexander Doe</h3>
-                                <p>Graphic designer</p>
+                                <h3>Marco Aurélio</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial">
                                 <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">a.doe@ashley.com</a>
@@ -138,10 +106,10 @@ define('INDEX',true);
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
-                            <div><img src="images/pic1.jpg" alt="" class="img-responsive"></div>
+                            <div><img src="images/team/fernando.jpg" alt="" class="img-responsive"></div>
                             <div class="boxContent boxNomeTeam color4">
-                                <h3>Pamela Anderson</h3>
-                                <p>Programmer</p>
+                                <h3>Fernando Seguim</h3>
+                                <p>.</p>
                             </div>
                             <div class="boxContent boxSocial"> <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">p.anderson66@ashley.com</a>
                                 <ul class="socialNetwork mt15">
@@ -159,7 +127,14 @@ define('INDEX',true);
         </div>
     </div>
 </div>
-
+<script>
+$(document).ready(function() {
+    var scrollorama = $.scrollorama({
+        blocks:'.scrollblock'
+    });
+    scrollorama.animate('#fly',{ delay: 10, duration: 500, property:'left', pin: true, start:0, end:-400 })
+});
+</script>
 <?php include('footer.html') ?>
 </body>
 </html>

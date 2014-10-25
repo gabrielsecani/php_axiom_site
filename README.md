@@ -1,5 +1,20 @@
 # README #
 
+##2014-10-23
+* adding gallery
+* adding gallery images for Robocup project
+* adding team images
+* new export Axiom logo
+* web icon created (untested)
+
+##2014-10-22
+* refactoring parallax and some js.
+* bug fixing in navigation, drop-down menu 
+
+## 2014-10-15
+* changed background home
+* bigger side blocks size
+
 ## 2014-10-12 @ mudancas1012
 * added Google analytics
 * added nav.php for site navigation

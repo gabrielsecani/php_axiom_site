@@ -1,14 +1,16 @@
 body{
     text-align: justify;
+    background:url('../images/bg.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 body > .container-fluid,
 body > #project{
     padding: 0 !important;
-    margin-top: 58px;
+    margin-top: 40px;
 }
 html{
     position: relative;
-    background-color:#000;
 }
 
 .container{
@@ -55,6 +57,12 @@ html{
     .navbar-brand{
         margin:4px 0 0 96px !important;
     }
+    body{
+        background-position: top;
+    }
+      #blocos{
+        display: none;
+      }
     .nav li.active a,
     .nav li a,
     .dropdown-menu li.active a,
@@ -72,27 +80,6 @@ html{
 .navbar-toggle{
   margin-top: 23px;
 }
-.parallax{
-    width: 100%;
-    background-repeat: repeat-x;
-    height: 100%;
-    position: relative;
-    min-height: 800px;
-}
-.div1 {
-    background: url(../images/background1.jpg) fixed;
-}
-.div2 {
-    background: url(../images/background2.jpg) fixed;
-}
-.div3 {
-    background: url(../images/background3.jpg) fixed ;
-}
-.div1, .div2, .div3{
-    background-size: 100% auto;
-    background-color:#000;
-    background-repeat: repeat-x;;
-}
 @media (max-width: 765px) {
     .div1, .div2, .div3{
     background-size: cover ;
@@ -105,12 +92,11 @@ html{
     color: #fff;
     margin: 40px 0;
     height: 100%;
-    background: url(../images/background_content.png) repeat;
 }
 .content > h2,
 .content > p {
     padding: 0 20px;
-    margin:10px 0 15px;
+    margin:6px 0 0;
 }
 /*CAROUSEL*/
 .carousel-caption {
@@ -160,11 +146,12 @@ html{
   .carousel-caption p {
     font-size: 16px;
   }
+
 }
 #blocos{
   background: url(../images/blocos.png) no-repeat;
-  height: 90px;
-  background-size: 79px;
+  height: 133px;
+  background-size: 130px;
   position: fixed;
   z-index: 1040;
   width: 190px;
@@ -179,7 +166,7 @@ a.carousel-control:hover{
 }
 
 footer{
-    background: #080808;
+    background-color: rgba(0,0,0,0.9);
     padding: 20px;
     text-align: center;
     z-index: 1920;
@@ -220,49 +207,27 @@ footer div{
     color:#c9302c;
 }
 #abreContato{
-    position:absolute;
-    bottom: 0px;
-    right: 5%;
-}
-@media (min-width: 768px) {
-    #abreContato{
-        right: 5%;
-    }
-}
-@media (min-width: 850px) {
-    #abreContato{
-        right: 10%;
-    }
-}
-@media (min-width: 1200px) {
-    #abreContato{
-        right: 15%;
-    }
-}
-@media (min-width: 1330px) {
-    #abreContato{
-        right: 20%;
-    }
-}
-#abreContato img{
+    float: right;
     height: 60px;
+    cursor: pointer;
+    margin: -20px 0 -20px 0;
 }
 #contato{
     display: none;
 }
 #contato label{
-    color:#000;
+    color:#fff;
 }
 #contato .content{
     margin:0;
 }
 #contato h2{
-    color:#ab181d;
+    color:#fff;
     padding-left: 94px;
     padding-bottom: 20px;
 }
 #backgroundContato{
-    background:url('../images/old_moon.png');
+    background-color: rgba(0,0,0,0.8);
     position:absolute;
     bottom:60px;
     width:100%;
@@ -293,7 +258,6 @@ footer div{
     width: 33.333333%;
     position: relative;
     float: left;
-    padding: 4px 4px 5px 5px;
 }
 
 .portfolio h2{
@@ -404,3 +368,151 @@ ul.socialNetwork li {
 .icon-gplus{   background: url("../images/social/social_gplus.png"); }
 .icon-blog{   background: url("../images/social/social_blog.png"); }
 .icon-twt{   background: url("../images/social/social_twt.png"); }
+
+.bs-example-modal-sm .modal-content{
+    padding:10px;
+    color:#222;
+}
+
+#facebookG{
+width:128px;
+display: none;
+}
+
+.facebook_blockG{
+background-color:#585659;
+border:3px solid #282929;
+float:left;
+height:91px;
+margin-left:7px;
+width:24px;
+opacity:0.1;
+-moz-animation-name:bounceG;
+-moz-animation-duration:1.3s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-moz-transform:scale(0.7);
+-webkit-animation-name:bounceG;
+-webkit-animation-duration:1.3s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-webkit-transform:scale(0.7);
+-ms-animation-name:bounceG;
+-ms-animation-duration:1.3s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-ms-transform:scale(0.7);
+-o-animation-name:bounceG;
+-o-animation-duration:1.3s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+-o-transform:scale(0.7);
+animation-name:bounceG;
+animation-duration:1.3s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+transform:scale(0.7);
+}
+
+#blockG_1{
+-moz-animation-delay:0.39s;
+-webkit-animation-delay:0.39s;
+-ms-animation-delay:0.39s;
+-o-animation-delay:0.39s;
+animation-delay:0.39s;
+}
+
+#blockG_2{
+-moz-animation-delay:0.52s;
+-webkit-animation-delay:0.52s;
+-ms-animation-delay:0.52s;
+-o-animation-delay:0.52s;
+animation-delay:0.52s;
+}
+
+#blockG_3{
+-moz-animation-delay:0.65s;
+-webkit-animation-delay:0.65s;
+-ms-animation-delay:0.65s;
+-o-animation-delay:0.65s;
+animation-delay:0.65s;
+}
+
+@-moz-keyframes bounceG{
+0%{
+-moz-transform:scale(1.2);
+opacity:1}
+
+100%{
+-moz-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@-webkit-keyframes bounceG{
+0%{
+-webkit-transform:scale(1.2);
+opacity:1}
+
+100%{
+-webkit-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@-ms-keyframes bounceG{
+0%{
+-ms-transform:scale(1.2);
+opacity:1}
+
+100%{
+-ms-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@-o-keyframes bounceG{
+0%{
+-o-transform:scale(1.2);
+opacity:1}
+
+100%{
+-o-transform:scale(0.7);
+opacity:0.1}
+
+}
+
+@keyframes bounceG{
+0%{
+transform:scale(1.2);
+opacity:1}
+
+100%{
+transform:scale(0.7);
+opacity:0.1}
+
+}
+
+#breadcrumbs{
+    text-align: right;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}
+
+.scrollblock{
+    width: auto;
+    top:60px !important;
+    height: 100%;
+    z-index: 2;
+}
+
+#fly{
+    background:url('../images/parallax/wall_caindo1.png') no-repeat;
+    background-size: 100% ;
+    height: 100%;
+    width: 270px;
+}
