@@ -1,7 +1,13 @@
+html{
+    position: relative
+}
+
 body{
     text-align: justify;
-    background:url('../images/bg.jpg');
-    background-position: top;
+    background-image:url('../images/bg_1.jpg');
+    background-color:#000;
+    background-size: 100% auto;
+    background-position: center;
     background-repeat: no-repeat;
     color: #fff;
 }
@@ -10,10 +16,6 @@ body > #project{
     padding: 0 !important;
     margin-top: 40px;
 }
-html{
-    position: relative;
-}
-
 .container{
     padding:0;
 }
@@ -524,11 +526,14 @@ opacity:0.1}
     width: 100%;
     color: #fff;
 }
-
-#fly{
-    background:url('../images/parallax/wall_caindo1.png') no-repeat;
-    background-size: 100% ;
-    height: 232px;
-    width: 270px;
-    position: absolute;
+#box-fly{
+    z-index: 0;
+}
+#walle-end{
+    background-image: url('../images/parallax/walle_fim.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 235px;
+    width: 260px;
+    left:-3%;
 }

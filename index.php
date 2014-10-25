@@ -11,16 +11,14 @@
 define('INDEX',true);
 ?>
 <?php include('nav.php') ?>
-<div class="container-fluid" data-0="display:block;"
-data-800="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" 
-data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" 
-data-10000="top:0%;" data-12000="top:-100%;">
-    <div id="fly" data-6500="left:75%;bottom[swing]:100%;" data-9500="bottom:0%;">
-        &nbsp;
-    </div>
+<div class="container-fluid">
     <div data-speed="30" data-divisor="1">
         <div class="container">
             <div class="content">
+                <div id="walle-end" data-start="bottom:-20%;" data-600="bottom:10%;">
+                    &nbsp;
+                </div>
+
                 <div style="padding: 20px;"><p>
                     O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
                     O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
@@ -123,6 +121,7 @@ data-10000="top:0%;" data-12000="top:-100%;">
                             </div>
                         </article>
                     </div>
+
                 </div><br>
                 <div class="clearfix"></div>
             </div>
