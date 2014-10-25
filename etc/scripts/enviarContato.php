@@ -9,64 +9,58 @@ date_default_timezone_set('Etc/UTC');
 
 require '../plugin/PhpMailer/PHPMailerAutoload.php';
 
-//Create a new PHPMailer instance
-$mail = new PHPMailer;
+$mail = new PHPMailer();
 
-//Tell PHPMailer to use SMTP
-$mail->isSMTP();
+// Define os dados do servidor e tipo de conexão
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+$mail->IsSMTP(); // Define que a mensagem será SMTP
+$mail->Host = "mail.axiomteam.works"; // Endereço do servidor SMTP (caso queira utilizar a autenticação, utilize o host smtp.seudomínio.com.br)
+$mail->SMTPAuth = true; // Usar autenticação SMTP (obrigatório para smtp.seudomínio.com.br)
+$mail->Username = 'say@axiomteam.works'; // Usuário do servidor SMTP (endereço de email)
+$mail->Password = '#@ax1omte@m'; // Senha do servidor SMTP (senha do email usado)
 
-//Enable SMTP debugging
-// 0 = off (for production use)
-// 1 = client messages
-// 2 = client and server messages
-$mail->SMTPDebug = 2;
+// Define o remetente
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+$mail->From = "say@axiomteam.works"; // Seu e-mail
+$mail->Sender = "say@axiomteam.works"; // Seu e-mail
+$mail->FromName = "Marco Teste"; // Seu nome
 
-//Ask for HTML-friendly debug output
-$mail->Debugoutput = 'html';
+// Define os destinatário(s)
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+$mail->AddAddress('say@axiomteam.works', 'Teste Marco');
+//$mail->AddAddress('e-mail@destino2.com.br');
+//$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
+//$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
 
-//Set the hostname of the mail server
-$mail->Host = 'smtp.gmail.com';
+// Define os dados técnicos da Mensagem
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+$mail->IsHTML(true); // Define que o e-mail será enviado como HTML
+//$mail->CharSet = 'iso-8859-1'; // Charset da mensagem (opcional)
 
-//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-$mail->Port = 587;
+// Define a mensagem (Texto e Assunto)
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+$mail->Subject  = "Mensagem Teste"; // Assunto da mensagem
+$mail->Body = 'Este é o corpo da mensagem de teste, em HTML!';
+$mail->AltBody = 'Este é o corpo da mensagem de teste, em Texto Plano! \r\n';
 
-//Set the encryption system to use - ssl (deprecated) or tls
-$mail->SMTPSecure = 'tls';
+// Define os anexos (opcional)
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//$mail->AddAttachment("/home/login/documento.pdf", "novo_nome.pdf");  // Insere um anexo
 
-//Whether to use SMTP authentication
-$mail->SMTPAuth = true;
+// Envia o e-mail
+$enviado = $mail->Send();
 
-//Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "marcoaure47@gmail.com";
+// Limpa os destinatários e os anexos
+$mail->ClearAllRecipients();
+$mail->ClearAttachments();
 
-//Password to use for SMTP authentication
-$mail->Password = "marcoaureliomoreira47";
-
-//Set who the message is to be sent from
-$mail->setFrom('marcoaure47@gmail.com', 'First Last');
-
-//Set an alternative reply-to address
-$mail->addReplyTo('replyto@example.com', 'First Last');
-
-//Set who the message is to be sent to
-$mail->addAddress('whoto@example.com', 'John Doe');
-
-//Set the subject line
-$mail->Subject = 'PHPMailer GMail SMTP test';
-
-//Read an HTML message body from an external file, convert referenced images to embedded,
-//convert HTML into a basic plain-text alternative body
-//$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
-$mail->msgHTML('hi1');
-//Replace the plain text body with one created manually
-$mail->AltBody = 'This is a plain-text message body';
-
-//Attach an image file
-//$mail->addAttachment('images/phpmailer_mini.png');
-
-//send the message, check for errors
-if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
+// Exibe uma mensagem de resultado
+if ($enviado) {
+    echo "E-mail enviado com sucesso!";
 } else {
-    echo "Message sent!";
+    echo "Não foi possível enviar o e-mail.
+
+";
+    echo "Informações do erro:
+" . $mail->ErrorInfo;
 }
