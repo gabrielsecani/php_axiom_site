@@ -174,7 +174,7 @@ a.carousel-control:hover{
 
 footer{
     background-color: rgba(0,0,0,0.9);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     z-index: 1920;
     width: 100%;
@@ -186,11 +186,39 @@ footer div{
     color:#fff;
 }
 
+#abreContato{
+    float: right;
+    height: 40px;
+    cursor: pointer;
+    margin: -10px 2% -60px 0;
+}
+#contato{
+    display: none;
+}
+#contato label{
+    color:#fff;
+}
+#contato .content{
+    margin:0;
+}
+#contato h2{
+    color:#fff;
+    padding-left: 94px;
+    padding-bottom: 20px;
+}
+#backgroundContato{
+    background-color: rgba(0,0,0,0.8);
+    position:absolute;
+    bottom:40px;
+    width:100%;
+    left:0;
+}
+
 /*WALL-E ROBOCUP */
 @media (min-width: 1200px){
-  .container {
-    width: 970px !important;
-  }
+    .container {
+        width: 970px !important;
+    }
 }
 #project{
     min-height: 100%;
@@ -215,33 +243,6 @@ footer div{
     color:#c9302c;
 }
 
-#abreContato{
-    float: right;
-    height: 60px;
-    cursor: pointer;
-    margin: -20px 0 -20px 0;
-}
-#contato{
-    display: none;
-}
-#contato label{
-    color:#fff;
-}
-#contato .content{
-    margin:0;
-}
-#contato h2{
-    color:#fff;
-    padding-left: 94px;
-    padding-bottom: 20px;
-}
-#backgroundContato{
-    background-color: rgba(0,0,0,0.8);
-    position:absolute;
-    bottom:60px;
-    width:100%;
-    left:0;
-}
 .projectDiv{
     margin:27px 0 !important;
     padding: 10px;
