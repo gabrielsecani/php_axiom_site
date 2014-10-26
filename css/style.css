@@ -260,31 +260,6 @@ footer div{
     color:#c9302c;
 }
 
-#abreContato{
-    float: right;
-    height: 60px;
-    cursor: pointer;
-    margin: -20px 0 -20px 0;
-}
-#contato{
-    display: none;
-}
-#contato label{
-    color:#fff;
-}
-#contato .content{
-    margin:0;
-}
-#contato h2{
-    color:#fff;
-    padding-left: 94px;
-    padding-bottom: 20px;
-}
-#backgroundContato{
-    background-color: rgba(0,0,0,0.8);
-    width:100%;
-    left:0;
-}
 .projectDiv{
     margin:27px 0 !important;
     padding: 10px;
