@@ -35,12 +35,13 @@ define('INDEX',true);
             <div class="content">
                 <h2>Projects</h2>
 
-                <div class="portfolio bwWrapper">
-                  <a href="robocup.php">
-                      <h2>wall-E - RoboCup 2014</h2>
-                    <img src="images/gallery/robocup/robocup19.jpg" />
-                  </a>
-                </div>
+                <a href="robocup.php">
+                    <div class="portfolio bwWrapper">
+
+                          <h2>wall-E - RoboCup 2014</h2>
+                        <img src="images/gallery/robocup/robocup19.jpg" />
+                    </div>
+                </a>
                 <div class="clearfix"></div>
             </div>
         </div>
