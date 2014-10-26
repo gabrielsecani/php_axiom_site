@@ -9,12 +9,15 @@
   <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
   <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<body>
+<body style="background-position:bottom">
 <?php
 define("PROJETO", "Robocup - FIAP");
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
+     <div id="walle-end" data-start="bottom:-40%;" data-1300="bottom:10%;">
+                    &nbsp;
+                </div>
   <div id="breadcrumbs">
     <div class="container">
       <?php echo "Você esta em  " . PROJETO ; ?>
@@ -52,7 +55,7 @@ define("PROJETO", "Robocup - FIAP");
     <div class="scrollblock div3" data-divisor="3" id="gallery">
 
         <div class="container">
-            <div class="content" style="height:450px" data-100="display:block;top:100%;" data-1400="top:5%;">
+            <div class="content" style="height:350px" data-100="display:block;top:100%;" data-1400="top:5%;">
                 <h2>Galeria</h2>
                 <div id="overflow-y">
                     <div class="gallery row">
