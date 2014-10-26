@@ -379,6 +379,8 @@ ul.socialNetwork li {
 #facebookG{
 width:128px;
 display: none;
+    position: absolute;
+    left:50%;
 }
 
 .facebook_blockG{
