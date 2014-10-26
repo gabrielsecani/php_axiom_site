@@ -36,7 +36,9 @@ define('INDEX',true);
                 <h2>Projects</h2>
 
                 <div class="portfolio bwWrapper">
-                  <a href="robocup.php">
+                  <a href="robocup.php" style="width: 100%;
+position: relative;
+height: 100%;">
                       <h2>wall-E - RoboCup 2014</h2>
                     <img src="images/gallery/robocup/robocup19.jpg" />
                   </a>
