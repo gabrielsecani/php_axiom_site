@@ -183,8 +183,19 @@ footer div{
 
 /*WALL-E ROBOCUP */
 @media (min-width: 1200px){
-  .container {
+  .container, .content {
     width: 970px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .content  {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container, .content  {
+    width: 970px;
   }
 }
 #project{
