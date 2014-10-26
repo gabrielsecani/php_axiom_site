@@ -15,14 +15,18 @@ define("PROJETO", "Robocup - FIAP");
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-     <div id="walle-end" data-start="bottom:-40%;" data-1300="bottom:10%;">
-                    &nbsp;
-                </div>
-  <div id="breadcrumbs">
-    <div class="container">
-      <?php echo "Você esta em  " . PROJETO ; ?>
+    <div style="width:300px;height:283px;" id="walle-end" data-start="bottom:-40%;" data-1500="bottom:20%;">
+        &nbsp;
     </div>
-  </div>
+    <div id="walle-fly" data-start="left:0%;top:10%;transform:rotate(0deg);" data-400="top:30%;transform:rotate(-360deg);" data-700="top:10%"  data-1000="left:-100%">
+        &nbsp;
+    </div>
+
+    <div id="breadcrumbs">
+        <div class="container">
+          <?php echo "Você esta em  " . PROJETO ; ?>
+        </div>
+    </div>
     <div class="parallax div1">
         <div class="container">
             <div class="content" data-divisor="1" id="scope"  data-250="top:5%;" data-600="top:-100%;">
@@ -37,7 +41,7 @@ define("PROJETO", "Robocup - FIAP");
 
     <div class="scrollblock div2" data-divisor="2" id="objective">
         <div class="container">
-            <div class="content" data-start="display:none;" data-150="display:block;top:100%;" data-400="top:5%;" data-900="top:5%" data-950="top:-10%;" data-1000="top:-30%;" data-1200="top:-100%;">
+            <div class="content" data-start="display:none;" data-150="display:block;top:100%;" data-400="top:5%;" data-900="top:5%" data-1100="" data-1200="top:-10%;" data-1250="top:-30%;" data-1400="top:-100%;">
               <h2>Objective</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
@@ -55,7 +59,7 @@ define("PROJETO", "Robocup - FIAP");
     <div class="scrollblock div3" data-divisor="3" id="gallery">
 
         <div class="container">
-            <div class="content" style="height:350px" data-100="display:block;top:100%;" data-1400="top:5%;">
+            <div class="content" style="height:350px" data-100="display:block;top:110%;" data-1800="top:5%;">
                 <h2>Galeria</h2>
                 <div id="overflow-y">
                     <div class="gallery row">
