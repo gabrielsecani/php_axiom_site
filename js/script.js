@@ -1,7 +1,7 @@
 $(function(){
-    $(window).scroll(function() { 
+    /*$(window).scroll(function() {
         $('#contato').hide(250);
-	});
+	});*/
      //Parallex
     offset = get_offset_height()
     $('div.parallax').each(function(){
