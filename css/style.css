@@ -2,6 +2,12 @@ html{
     position: relative;
 }
 
+
+h2{
+    background: rgba(0,0,0,0.8);
+    margin:6px 0 10px;
+}
+
 body{
     text-align: justify;
     background-image:url('../images/bg.jpg');
