@@ -98,7 +98,7 @@ body > #project{
 .content > h2,
 .content > p {
     padding: 0 20px;
-    margin:6px 0 0;
+    margin:6px 0;
 }
 /*CAROUSEL*/
 .carousel-caption {

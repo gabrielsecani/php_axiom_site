@@ -9,13 +9,10 @@ $(function(){
         $(window).scroll(function() {
             if(is_mobile())
                 return false;
-            var yPos = -($(window).scrollTop() / $obj.data('speed')); 
-            var bgpos = '50% '+ yPos + 'px';
-            $obj.css('background-position', bgpos );
             var window_scrolltop = $(this).scrollTop();
             var divisor = typeof $obj.data('divisor') == 'undefined' ? 3 : $obj.data('divisor');
             offset.forEach(function(item) {
-                if(window_scrolltop + 100 >= item){
+                if(window_scrolltop >= item){
                     d_divisor = offset.indexOf(item)
                     $(".nav:first li").removeClass("active");
                     $(".go-section[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
@@ -28,6 +25,7 @@ $(function(){
     $(".go-section").click(function(){
         $(".navbar-collapse").removeClass("in");
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]");
+        console.log(data_divisor.offset().top)
         $('html, body').animate({
             scrollTop: parseInt(data_divisor.offset().top - 60)
         }, 1500);
@@ -108,9 +106,8 @@ $(function(){
     function get_offset_height(){
         offset = []
         $(".go-section").each(function(){
-            offset.push($("div[data-divisor="+this.attributes['data-divisor'].value +"]").offset().top - 51)
+            offset.push($("div[data-divisor="+this.attributes['data-divisor'].value +"] .content").offset().top - 51)
         });
         return offset
     }
-
 }); // jQuery
