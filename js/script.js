@@ -1,5 +1,4 @@
 $(function(){
-    //Parallex
     offset = get_offset_height()
     $('div.parallax').each(function(){
         var $obj = $(this);
@@ -23,9 +22,6 @@ $(function(){
         }); 
    });
 
-    $(window).scroll(function() { 
-        $('#contato').hide(250);
-	});
     //Go-section
     $(".go-section").click(function(){
         $(".navbar-collapse").removeClass("in");
