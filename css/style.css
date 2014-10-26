@@ -285,7 +285,6 @@ footer div{
     width:100%;
     left:0;
 }
->>>>>>> 5784628049594b2aab4ebf6b7101127a787b9785
 .projectDiv{
     margin:27px 0 !important;
     padding: 10px;
@@ -565,8 +564,8 @@ opacity:0.1}
     background-image: url('../images/parallax/walle_fim.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 235px;
-    width: 260px;
+    height: 283px;
+    width: 300px;
     left:-3%;
 }
 #overflow-y {
