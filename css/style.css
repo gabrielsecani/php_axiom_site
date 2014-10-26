@@ -104,8 +104,8 @@ body > #project{
 }
 .content > h2,
 .content > p {
-    padding: 6px 20px;
-    margin:6px 0 0;
+    padding: 0 20px;
+    margin:6px 0;
 }
 
 .content > p {
@@ -222,9 +222,20 @@ footer div{
 
 /*WALL-E ROBOCUP */
 @media (min-width: 1200px){
-    .container {
-        width: 970px !important;
-    }
+  .container, .content {
+    width: 970px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .content  {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container, .content  {
+    width: 970px;
+  }
 }
 #project{
     min-height: 100%;
@@ -249,8 +260,6 @@ footer div{
     color:#c9302c;
 }
 
-<<<<<<< HEAD
-=======
 #abreContato{
     float: right;
     height: 60px;
@@ -276,7 +285,6 @@ footer div{
     width:100%;
     left:0;
 }
->>>>>>> 5784628049594b2aab4ebf6b7101127a787b9785
 .projectDiv{
     margin:27px 0 !important;
     padding: 10px;
@@ -556,13 +564,20 @@ opacity:0.1}
     background-image: url('../images/parallax/walle_fim.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 235px;
-    width: 260px;
+    height: 283px;
+    width: 300px;
     left:-3%;
     z-index: -1;
 }
 /*#overflow-y {
     height: 100%;
-    overflow-y:scroll;
+    overflow-y:hidden;
+}
+#walle-fly{
+    background-image: url('../images/parallax/wall_caindo1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 235px;
+    width: 260px;
 }
 */

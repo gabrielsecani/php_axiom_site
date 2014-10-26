@@ -12,24 +12,24 @@ define('INDEX',true);
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-    <div data-speed="30" data-divisor="1">
+    <div class="parallax" data-divisor="1">
         <div class="container">
             <div class="content">
                 <div id="walle-end" data-start="bottom:-20%;" data-600="bottom:10%;">
                     &nbsp;
                 </div>
 
-
-                <p>A Equipe Axiom, é um grupo formado com o intuito de desenvolver projetos do curso de Sistemas de Informação da Faculdade de Informática e Administração Paulista (FIAP).</p>
-                <p>A visão da equipe é tornar-se excelência em empreendedorismo e desenvolvimento tecnológico. Para isso investe em esforços para auto capacitação, acumulando conhecimento e experiências que vão desde o âmbito técnico ao gerenciamento do projeto, transformando os objetivos em metas cumpridas.</p>
+                <p>A Equipe Axiom, foi constituída com o intuito de desenvolver os diversos projetos do curso de Sistemas de Informação da Faculdade de Informática e Administração Paulista (FIAP).</p>
+                <p>A visão da equipe é tornar-se excelência em empreendedorismo e desenvolvimento tecnológico. Para isso investe em esforços em auto capacitação, absorvendo conhecimento e experiências que vão desde o ambiente técnico ao gerenciamento do projeto, transformando os objetivos se em metas cumpridas.</p>
                 <br>
                 <p class="right">“Sem suor e sem trabalho nenhuma obra é terminada” <br>(Schrevelius, 1176)</p>
-
                 <div class="clearfix"></div>
+                <br>
+                <br>
             </div>
         </div>
     </div>
-    <div data-speed="20" data-divisor="2" id="projects">
+    <div class="parallax" data-divisor="2" id="projects">
         <div class="container">
             <div class="content">
                 <h2>Projects</h2>
@@ -46,7 +46,7 @@ define('INDEX',true);
         </div>
     </div>
 
-    <div data-speed="40" data-divisor="3" id="team">
+    <div class="parallax" data-divisor="3" id="team">
         <div class="container">
             <div class="content">
                 <h2>Team</h2>
