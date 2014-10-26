@@ -19,13 +19,12 @@ define('INDEX',true);
                     &nbsp;
                 </div>
 
-                <div style="padding: 20px;"><p>
-                    O que temos que ter sempre em mente é que a determinação clara de objetivos promove a alavancagem da gestão inovadora da qual fazemos parte.
-                    O que temos que ter sempre em mente é que a consolidação das estruturas garante a contribuição de um grupo importante na determinação dos níveis de motivação departamental.
-                    Não obstante, a necessidade de renovação processual estimula a padronização do investimento em reciclagem técnica.
-                    O cuidado em identificar pontos críticos no fenômeno da Internet possibilita uma melhor visão global dos índices pretendidos.
-                    </p>
-                </div>
+
+                <p>A Equipe Axiom, é um grupo formado com o intuito de desenvolver projetos do curso de Sistemas de Informação da Faculdade de Informática e Administração Paulista (FIAP).</p>
+                <p>A visão da equipe é tornar-se excelência em empreendedorismo e desenvolvimento tecnológico. Para isso investe em esforços para auto capacitação, acumulando conhecimento e experiências que vão desde o âmbito técnico ao gerenciamento do projeto, transformando os objetivos em metas cumpridas.</p>
+                <br>
+                <p class="right">“Sem suor e sem trabalho nenhuma obra é terminada” <br>(Schrevelius, 1176)</p>
+
                 <div class="clearfix"></div>
             </div>
         </div>
