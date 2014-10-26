@@ -100,7 +100,7 @@ body > #project{
     padding:10px 0px 0;
     margin: 40px 0;
     height: 100%;
-    font-family: monospace ;
+    font-family: 'Open Sans', sans-serif;
 }
 .content > h2,
 .content > p {
