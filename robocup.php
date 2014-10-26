@@ -30,11 +30,16 @@ define("PROJETO", "Robocup - FIAP");
     <div class="parallax" data-divisor="1">
         <div class="container">
             <div class="content" id="scope">
-              <h2>Scope project</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              <h2>Escopo do Projeto</h2>
+                <p>
+                    O RoboCup é uma competição organizada pela FIAP onde grupos de alunos projetam e constroem robôs com o propósito de aplicarem na prática os principais conceitos de gestão de projetos e novas tecnologias.
+                </p>
+                <p>
+                    A Axiom, propôs a construção de um robô que além de atender os pré-requisitos da competição, onde cada projeto deve contar com uma base motorizada e controlada através de um sistema wireless e uma arma controlada por um micro controlador arduíno que é acionada a partir do contato físico contra o adversário, um sistema de alimentação baseado na redução do consumo de carga e aproveitamento máximo da energia disponível.
+                </p>
+                <p>
+                    Isso através de dois sistemas de alimentação independentes, onde o primeiro fornece a energia para a base motorizada, através de uma fonte de 9V e o segundo, esse o diferencial máximo do projeto, alimentando a arma do robô a partir de uma fonte fotovoltaica de 5.45V de saída.
+                </p>
             </div>
         </div>
     </div>
@@ -42,15 +47,9 @@ define("PROJETO", "Robocup - FIAP");
     <div class="parallax" data-divisor="2" id="objective">
         <div class="container">
             <div class="content">
-              <h2>Objective</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
+              <h2>Objetivo</h2>
                 <p>
-                    <ul>
-                        <li> Objective 1</li>
-                        <li> Objective 2</li>
-                        <li> Objective 3</li>
-                    </ul>
+                    O principal objetivo deste projeto proposto pela FIAP, era colocar os conhecimentos obtidos no decorrer do curso em prática. Além disso, tivemos a possibilidade de entender a visão de mercado do produto desenvolvido de uma maneira que atenda os padrões profissionais do setor tecnológico.
                 </p>
             </div>
         </div>
