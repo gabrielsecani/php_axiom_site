@@ -232,8 +232,6 @@ footer div{
 }
 #backgroundContato{
     background-color: rgba(0,0,0,0.8);
-    position:absolute;
-    bottom:60px;
     width:100%;
     left:0;
 }
