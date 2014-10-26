@@ -15,7 +15,7 @@ define('INDEX',true);
     <div class="parallax" data-divisor="1">
         <div class="container">
             <div class="content">
-                <div id="walle-end" data-start="bottom:-20%;" data-600="bottom:10%;">
+                <div id="walle-end" data-start="bottom:-100%;" data-900="bottom:10%;">
                     &nbsp;
                 </div>
 
@@ -25,14 +25,13 @@ define('INDEX',true);
                 <p class="right">“Sem suor e sem trabalho nenhuma obra é terminada” <br>(Schrevelius, 1176)</p>
                 <div class="clearfix"></div>
                 <br>
-                <br>
             </div>
         </div>
     </div>
     <div class="parallax" data-divisor="2" id="projects">
         <div class="container">
             <div class="content">
-                <h2>Projects</h2>
+                <h2>Projetos</h2>
 
                 <a href="robocup.php">
                     <div class="portfolio bwWrapper">
@@ -49,7 +48,38 @@ define('INDEX',true);
     <div class="parallax" data-divisor="3" id="team">
         <div class="container">
             <div class="content">
-                <h2>Team</h2>
+                <h2>Equipe</h2>
+
+                <?php
+                /**
+                 * Gera HTML do boxSocial com os valores informados
+                 *
+                 * @param $email Email de contato
+                 * @param string $fb facebook
+                 * @param string $li linkedin
+                 * @param string $gp google plus
+                 * @param string $w website
+                 */
+                function do_social($email, $fb = '', $li = '', $gp = '', $w = '')
+                {
+                    echo "<div class=\"boxContent boxSocial\">";
+                    echo "<a href=\"mailto:$email\" onclick=\"window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=$email&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;\">$email</a>";
+                    echo "<ul class=\"socialNetwork mt15\">";
+                    if (!empty($fb)) {
+                        echo "<li><a href=\"https://www.facebook.com/$fb\" class=\"tips\" title=\"Facebook\" data-original-title=\"Facebook\"><i class=\"social-icon icon-facebook\"></i></a></li>";
+                    }
+                    if (!empty($li)) {
+                        echo  "<li><a href=\"https://www.linkedin.com/$li\" class=\"tips\" title=\"LinkedIn\" data-original-title=\"Linked In\"><i class=\"social-icon icon-linkedin\"></i></a></li>";
+                    }
+                    if (!empty($gp)) {
+                        echo "<li><a href=\"https://plus.google.com/$gp/about\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Google Plus\"><i class=\"social-icon icon-gplus\"></i></a></li>";
+                    }
+                    if (!empty($w)) {
+                        echo "<li><a href=\"http://$w\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Site\"><i class=\"social-icon icon-blog\"></i></a></li>";
+                    }
+                    echo "</ul></div>";
+                 }
+                ?>
                 <div class="row">
                     <div class="col-xs-12">
                     </div>
@@ -59,15 +89,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4" >
                                 <h3>Lucas Gomide</h3>
                             </div>
-                            <div class="boxContent boxSocial">
-                                <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.doe@ashley.com</a>
-                                <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-gplus"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
-                                </ul>
-                            </div>
+                            <?php do_social('lucas@axiomteam.works','lucaasgomide','in/lucasgomide','+LucasGomide'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
@@ -76,14 +98,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Gabriel Ribeiro</h3>
                             </div>
-                            <div class="boxContent boxSocial">
-                                <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">j.newsom@ashley.com</a>
-                                <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
-                                </ul>
-                            </div>
+                            <?php do_social('gabriel@axiomteam.works','galutori','in/gabriellucastr','+GabrielLucasTR'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
@@ -92,13 +107,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Marco Aurélio</h3>
                             </div>
-                            <div class="boxContent boxSocial">
-                                <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">a.doe@ashley.com</a>
-                                <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-twt"></i></a></li>
-                                </ul>
-                            </div>
+                            <?php do_social('marco@axiomteam.works','MarcoAurelioMAnjos','in/marcoaure','+MarcoAurélioMoreiradosAnjos','curriculo.marcoaureliodesign.com.br'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
@@ -107,14 +116,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Fernando Seguim</h3>
                             </div>
-                            <div class="boxContent boxSocial"> <a href="mailto:your.email@little-neko.com" onclick="window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=your.email@little-neko.com&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;">p.anderson66@ashley.com</a>
-                                <ul class="socialNetwork mt15">
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-facebook"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-linkedin"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-gplus"></i></a></li>
-                                    <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="social-icon icon-blog"></i></a></li>
-                                </ul>
-                            </div>
+                            <?php do_social('fernando@axiomteam.works','nandoseguim','pub/fernando-seguim/90/537/161','113028298144200890692'); ?>
                         </article>
                     </div>
 

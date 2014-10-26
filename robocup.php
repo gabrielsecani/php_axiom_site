@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Axiom - Robo Wall-E</title>
   <?php include('assets.html') ?>
-  <script type="text/javascript" src="js/jquery.resizecrop-1.0.3.min.js"></script>
   <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
-  <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <?php
@@ -38,7 +36,7 @@ define("PROJETO", "Robocup - FIAP");
                     A Axiom, propôs a construção de um robô que além de atender os pré-requisitos da competição, onde cada projeto deve contar com uma base motorizada e controlada através de um sistema wireless e uma arma controlada por um micro controlador arduíno que é acionada a partir do contato físico contra o adversário, um sistema de alimentação baseado na redução do consumo de carga e aproveitamento máximo da energia disponível.
                 </p>
                 <p>
-                    Isso através de dois sistemas de alimentação independentes, onde o primeiro fornece a energia para a base motorizada, através de uma fonte de 9V e o segundo, esse o diferencial máximo do projeto, alimentando a arma do robô a partir de uma fonte fotovoltaica de 5.45V de saída.
+                    Isso através de dois sistemas de alimentação independentes, onde o primeiro fornece a energia para a base motorizada, através de uma fonte de 9V e o segundo, esse o diferencial máximo do projeto, alimentando a arma do robô a partir de uma fonte fotovoltaica de 5V de saída.
                 </p>
             </div>
         </div>
@@ -49,7 +47,9 @@ define("PROJETO", "Robocup - FIAP");
             <div class="content">
               <h2>Objetivo</h2>
                 <p>
-                    O principal objetivo deste projeto proposto pela FIAP, era colocar os conhecimentos obtidos no decorrer do curso em prática. Além disso, tivemos a possibilidade de entender a visão de mercado do produto desenvolvido de uma maneira que atenda os padrões profissionais do setor tecnológico.
+                    O principal objetivo deste projeto proposto pela FIAP, foi de colocar os conhecimentos obtidos no decorrer do curso em prática.
+                </p><p>
+                    Além disso, tivemos a possibilidade de entender a visão de mercado de um produto desenvolvido de maneira que atenda os padrões profissionais do setor tecnológico.
                 </p>
             </div>
         </div>
@@ -146,7 +146,8 @@ define("PROJETO", "Robocup - FIAP");
                             <img src="images/gallery/robocup/robocup23.jpg" alt="Robocup 2014">
                         </a>
                     </div>
-                    <div style="clear:both"></div>
+
+                    <div class="clearfix"></div>
 
                 </div>
 
@@ -154,10 +155,13 @@ define("PROJETO", "Robocup - FIAP");
         </div>
     </div>
 </div>
+<?php include('footer.html') ?>
+<script type="text/javascript" src="js/jquery.resizecrop-1.0.3.min.js"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
     $(document).ready(function($) {
         //resize img gallery
-        $('#gallery img').resizecrop({
+        $('.gallery img').resizecrop({
           width:300,
           height:150,
           vertical:"top"
@@ -167,6 +171,5 @@ define("PROJETO", "Robocup - FIAP");
         $("a[rel^='prettyPhoto']").prettyPhoto({theme:'pp_default'});
     });
 </script>
-<?php include('footer.html') ?>
 </body>
 </html>                                   
