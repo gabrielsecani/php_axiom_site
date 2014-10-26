@@ -1,8 +1,5 @@
 $(function(){
-    $(window).scroll(function() { 
-        $('#contato').hide(250);
-	});
-     //Parallex
+    //Parallex
     offset = get_offset_height()
     $('div.parallax').each(function(){
         var $obj = $(this);
@@ -10,22 +7,29 @@ $(function(){
             if(is_mobile())
                 return false;
             var window_scrolltop = $(this).scrollTop();
-            var divisor = typeof $obj.data('divisor') == 'undefined' ? 3 : $obj.data('divisor');
+            var divisor = $obj.data('divisor');
             offset.forEach(function(item) {
                 if(window_scrolltop >= item){
                     d_divisor = offset.indexOf(item)
+                    console.log(window_scrolltop)
+
+                    if(window_scrolltop > -51 && window_scrolltop < 265 ) {
+                        d_divisor = 0;    
+                    } 
                     $(".nav:first li").removeClass("active");
                     $(".go-section[data-divisor="+(d_divisor+1)+"]").parent('li').addClass("active");
                 }
             })
         }); 
-   });  
+   });
 
+    $(window).scroll(function() { 
+        $('#contato').hide(250);
+	});
     //Go-section
     $(".go-section").click(function(){
         $(".navbar-collapse").removeClass("in");
         data_divisor = $("div[data-divisor="+this.attributes['data-divisor'].value +"]");
-        console.log(data_divisor.offset().top)
         $('html, body').animate({
             scrollTop: parseInt(data_divisor.offset().top - 60)
         }, 1500);
@@ -106,7 +110,7 @@ $(function(){
     function get_offset_height(){
         offset = []
         $(".go-section").each(function(){
-            offset.push($("div[data-divisor="+this.attributes['data-divisor'].value +"] .content").offset().top - 51)
+            offset.push(parseInt($("div[data-divisor="+this.attributes['data-divisor'].value +"] .content").offset().top - 51))
         });
         return offset
     }

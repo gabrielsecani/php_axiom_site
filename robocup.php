@@ -29,7 +29,7 @@ define("PROJETO", "Robocup - FIAP");
     </div>
     <div class="parallax" data-divisor="1">
         <div class="container">
-            <div class="content"  id="scope" data-250="top:5%;" data-600="top:-100%;">
+            <div class="content" id="scope" data-250="top:5%;" data-400="top:-100%;">
               <h2>Scope project</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ullamcorper risus, sit amet tempor metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; </p>
