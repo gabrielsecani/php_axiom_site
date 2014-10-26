@@ -1,4 +1,7 @@
 # README #
+##2014-10-26
+# adding home text content
+# adjust css for home text and content general
 
 ##2014-10-23
 * adding gallery
