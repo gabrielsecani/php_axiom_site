@@ -110,7 +110,7 @@ $(function(){
     function get_offset_height(){
         offset = []
         $(".go-section").each(function(){
-            offset.push(parseInt($("div[data-divisor="+this.attributes['data-divisor'].value +"] .content").offset().top - 51))
+            offset.push(parseInt($("div[data-divisor="+this.attributes['data-divisor'].value +"] .content").offset().top - 100))
         });
         return offset
     }
