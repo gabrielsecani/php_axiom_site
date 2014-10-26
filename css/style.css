@@ -5,7 +5,7 @@ html{
 
 h2{
     background: rgba(0,0,0,0.8);
-    margin:6px 0 10px;
+    margin:6px 0 10px !important;
 }
 
 body{
@@ -392,6 +392,7 @@ ul.socialNetwork li {
     #team .boxSocial{
         margin-bottom:1.5em;
     }
+    #walle-end{ display: none; }
 }
 
 .wall_e_robocup .btn-group-vertical{
