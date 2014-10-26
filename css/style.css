@@ -2,6 +2,12 @@ html{
     position: relative;
 }
 
+
+h2{
+    background: rgba(0,0,0,0.8);
+    margin:6px 0 10px;
+}
+
 body{
     text-align: justify;
     background-image:url('../images/bg.jpg');
@@ -243,6 +249,34 @@ footer div{
     color:#c9302c;
 }
 
+<<<<<<< HEAD
+=======
+#abreContato{
+    float: right;
+    height: 60px;
+    cursor: pointer;
+    margin: -20px 0 -20px 0;
+}
+#contato{
+    display: none;
+}
+#contato label{
+    color:#fff;
+}
+#contato .content{
+    margin:0;
+}
+#contato h2{
+    color:#fff;
+    padding-left: 94px;
+    padding-bottom: 20px;
+}
+#backgroundContato{
+    background-color: rgba(0,0,0,0.8);
+    width:100%;
+    left:0;
+}
+>>>>>>> 5784628049594b2aab4ebf6b7101127a787b9785
 .projectDiv{
     margin:27px 0 !important;
     padding: 10px;
@@ -387,6 +421,8 @@ ul.socialNetwork li {
 #facebookG{
 width:128px;
 display: none;
+    position: absolute;
+    left:50%;
 }
 
 .facebook_blockG{
