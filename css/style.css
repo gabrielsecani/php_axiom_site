@@ -50,7 +50,7 @@ body > #project{
 .nav li a {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
 }
 .nav li.active a{
   border-bottom: 3px solid #ab181d;
@@ -94,11 +94,16 @@ body > #project{
     padding:10px 0px 0;
     margin: 40px 0;
     height: 100%;
+    font-family: monospace ;
 }
 .content > h2,
 .content > p {
-    padding: 0 20px;
+    padding: 6px 20px;
     margin:6px 0 0;
+}
+
+.content > p {
+    font-size: 18px;
 }
 /*CAROUSEL*/
 .carousel-caption {
@@ -120,7 +125,7 @@ body > #project{
 }
 .carousel .item ul.network li{
     float:left;
-    list-style: none;   
+    list-style: none;
     margin-right: 10px;
 }
 .carousel .item ul li a{
@@ -331,7 +336,7 @@ ul.socialNetwork li {
     text-align: center;
     padding-top: 11px;
 }
-.boxNomeTeam{ 
+.boxNomeTeam{
     height:146px;
 }
 #team .row{
@@ -517,14 +522,7 @@ opacity:0.1}
     width: 260px;
     left:-3%;
 }
-#walle-fly{
-    background-image: url('../images/parallax/wall_caindo1.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 235px;
-    width: 260px;
-}
 #overflow-y {
     height: 100%;
-    overflow-y:hidden; 
+    overflow-y:scroll;
 }
