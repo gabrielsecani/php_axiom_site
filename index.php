@@ -19,13 +19,13 @@ define('INDEX',true);
                     &nbsp;
                 </div>
 
-
-                <p>A Equipe Axiom, é um grupo formado com o intuito de desenvolver projetos do curso de Sistemas de Informação da Faculdade de Informática e Administração Paulista (FIAP).</p>
-                <p>A visão da equipe é tornar-se excelência em empreendedorismo e desenvolvimento tecnológico. Para isso investe em esforços para auto capacitação, acumulando conhecimento e experiências que vão desde o âmbito técnico ao gerenciamento do projeto, transformando os objetivos em metas cumpridas.</p>
+                <p>A Equipe Axiom, foi constituída com o intuito de desenvolver os diversos projetos do curso de Sistemas de Informação da Faculdade de Informática e Administração Paulista (FIAP).</p>
+                <p>A visão da equipe é tornar-se excelência em empreendedorismo e desenvolvimento tecnológico. Para isso investe em esforços em auto capacitação, absorvendo conhecimento e experiências que vão desde o ambiente técnico ao gerenciamento do projeto, transformando os objetivos se em metas cumpridas.</p>
                 <br>
                 <p class="right">“Sem suor e sem trabalho nenhuma obra é terminada” <br>(Schrevelius, 1176)</p>
-
                 <div class="clearfix"></div>
+                <br>
+                <br>
             </div>
         </div>
     </div>
