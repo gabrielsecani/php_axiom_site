@@ -13,9 +13,6 @@ define("PROJETO", "Robocup - FIAP");
 ?>
 <?php include('nav.php') ?>
 <div class="container-fluid">
-     <div style="width:300px;height:283px;left:0px" id="walle-end" data-start="bottom:-40%;left:-20%" data-900="bottom:10%;left:100%">
-         &nbsp;
-     </div>
      <div id="walle-fly" data-start="left:0%;top:-20%;transform:rotate(0deg);" data-400="top:30%;transform:rotate(-360deg);" data-700="top:10%" data-1000="top:15%">
          &nbsp;
      </div>
