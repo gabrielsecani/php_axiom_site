@@ -257,17 +257,16 @@ ul.socialNetwork li {
 }
 
 .social-icon{
-	padding-right: 4px;
+	margin-right: 4px;
     width:35px;
     height:35px;
-    background-repeat: no-repeat;
     display: inline-block;
 }
-.icon-facebook{   background: url("../images/social/social_fb.png"); }
-.icon-linkedin{   background: url("../images/social/social_linkedin.png"); }
-.icon-gplus{   background: url("../images/social/social_gplus.png"); }
-.icon-blog{   background: url("../images/social/social_blog.png"); }
-.icon-twt{   background: url("../images/social/social_twt.png"); }
+.icon-facebook{   background: url("../images/social/social_fb.png") no-repeat; }
+.icon-linkedin{   background: url("../images/social/social_linkedin.png") no-repeat; }
+.icon-gplus{   background: url("../images/social/social_gplus.png") no-repeat; }
+.icon-blog{   background: url("../images/social/social_blog.png") no-repeat; }
+.icon-twt{   background: url("../images/social/social_twt.png") no-repeat; }
 
 .bs-example-modal-sm .modal-content{
     padding:10px;
