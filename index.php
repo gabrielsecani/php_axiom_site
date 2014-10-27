@@ -79,7 +79,7 @@ define('INDEX',true);
                         echo "<li><a href=\"http://$w\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Site\" target=\"_blank\"><i class=\"social-icon icon-blog\"></i></a></li>";
                     }
                     if (!empty($gh)) {
-                        echo "<li><a href=\"http://https://github.com/$gh\" class=\"tips\" title=\"GitHub\" data-original-title=\"GitHub\" target=\"_blank\"><i class=\"social-icon icon-gh\"></i></a></li>";
+                        echo "<li><a href=\"https://github.com/$gh\" class=\"tips\" title=\"GitHub\" data-original-title=\"GitHub\" target=\"_blank\"><i class=\"social-icon icon-gh\"></i></a></li>";
                     }
                     echo "</ul></div>";
                  }
