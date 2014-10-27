@@ -102,7 +102,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Gabriel Ribeiro</h3>
                             </div>
-                            <?php do_social('gabriel@axiomteam.works','galutori','in/gabriellucastr','+GabrielLucasTR'); ?>
+                            <?php do_social('gabriel@axiomteam.works','galutori','in/gabriellucastr','+GabrielLucasTR','','gabrieltr'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
@@ -111,7 +111,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Marco Aurélio</h3>
                             </div>
-                            <?php do_social('marco@axiomteam.works','MarcoAurelioMAnjos','in/marcoaure','+MarcoAurélioMoreiradosAnjos'); ?>
+                            <?php do_social('marco@axiomteam.works','MarcoAurelioMAnjos','in/marcoaure','+MarcoAurélioMoreiradosAnjos','','marcoaure'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
