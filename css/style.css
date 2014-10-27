@@ -267,6 +267,7 @@ ul.socialNetwork li {
 .icon-gplus{   background: url("../images/social/social_gplus.png") no-repeat; }
 .icon-blog{   background: url("../images/social/social_blog.png") no-repeat; }
 .icon-twt{   background: url("../images/social/social_twt.png") no-repeat; }
+.icon-gh{   background: url("../images/social/social_github.png") no-repeat ; }
 
 .bs-example-modal-sm .modal-content{
     padding:10px;

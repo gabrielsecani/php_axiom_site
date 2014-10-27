@@ -59,8 +59,9 @@ define('INDEX',true);
                  * @param string $li linkedin
                  * @param string $gp google plus
                  * @param string $w website
+                 * @param string $gh gitbhug
                  */
-                function do_social($email, $fb = '', $li = '', $gp = '', $w = '')
+                function do_social($email, $fb = '', $li = '', $gp = '', $w = '', $gh = '')
                 {
                     echo "<div class=\"boxContent boxSocial\">";
                     echo "<a href=\"mailto:$email\" onclick=\"window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=$email&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;\">$email</a>";
@@ -77,6 +78,9 @@ define('INDEX',true);
                     if (!empty($w)) {
                         echo "<li><a href=\"http://$w\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Site\" target=\"_blank\"><i class=\"social-icon icon-blog\"></i></a></li>";
                     }
+                    if (!empty($gh)) {
+                        echo "<li><a href=\"http://https://github.com/$gh\" class=\"tips\" title=\"GitHub\" data-original-title=\"GitHub\" target=\"_blank\"><i class=\"social-icon icon-gh\"></i></a></li>";
+                    }
                     echo "</ul></div>";
                  }
                 ?>
@@ -89,7 +93,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4" >
                                 <h3>Lucas Gomide</h3>
                             </div>
-                            <?php do_social('lucas@axiomteam.works','lucaasgomide','in/lucasgomide','+LucasGomide'); ?>
+                            <?php do_social('lucas@axiomteam.works','lucaasgomide','in/lucasgomide','+LucasGomide', '', 'lucasgomide'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
