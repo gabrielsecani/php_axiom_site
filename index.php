@@ -120,7 +120,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Fernando Seguim</h3>
                             </div>
-                            <?php do_social('fernando@axiomteam.works','nandoseguim','pub/fernando-seguim/90/537/161','113028298144200890692'); ?>
+                            <?php do_social('fernando@axiomteam.works','nandoseguim','pub/fernando-seguim/90/537/161','113028298144200890692','','nandoseguim'); ?>
                         </article>
                     </div>
 
