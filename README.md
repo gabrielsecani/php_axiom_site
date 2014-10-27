@@ -1,5 +1,9 @@
 # README #
+##2014-10-27
+* adding video youtube robocup
+
 ##2014-10-26
+* fixing bugs
 * adding home text content
 * adjust css for home text and content general
 
