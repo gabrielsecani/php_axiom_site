@@ -15,7 +15,7 @@ define('INDEX',true);
     <div class="parallax" data-divisor="1">
         <div class="container">
             <div class="content">
-                <div id="walle-end" data-start="bottom:-100%;" data-900="bottom:10%;">
+                <div id="walle-end" data-start="bottom:-200px;" data-850="bottom:40px;">
                     &nbsp;
                 </div>
 
