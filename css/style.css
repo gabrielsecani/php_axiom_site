@@ -257,6 +257,7 @@ ul.socialNetwork li {
 }
 
 .social-icon{
+	padding-right: 4px;
     width:35px;
     height:35px;
     background-repeat: no-repeat;

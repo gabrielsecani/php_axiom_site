@@ -66,16 +66,16 @@ define('INDEX',true);
                     echo "<a href=\"mailto:$email\" onclick=\"window.open('https://mail.google.com/mail/?view=cm&amp;tf=1&amp;to=$email&amp;cc=&amp;bcc=&amp;su=&amp;body=','_blank');return false;\">$email</a>";
                     echo "<ul class=\"socialNetwork mt15\">";
                     if (!empty($fb)) {
-                        echo "<li><a href=\"https://www.facebook.com/$fb\" class=\"tips\" title=\"Facebook\" data-original-title=\"Facebook\"><i class=\"social-icon icon-facebook\"></i></a></li>";
+                        echo "<li><a href=\"https://www.facebook.com/$fb\" class=\"tips\" title=\"Facebook\" data-original-title=\"Facebook\" target=\"_blank\"><i class=\"social-icon icon-facebook\"></i></a></li>";
                     }
                     if (!empty($li)) {
-                        echo  "<li><a href=\"https://www.linkedin.com/$li\" class=\"tips\" title=\"LinkedIn\" data-original-title=\"Linked In\"><i class=\"social-icon icon-linkedin\"></i></a></li>";
+                        echo  "<li><a href=\"https://www.linkedin.com/$li\" class=\"tips\" title=\"LinkedIn\" data-original-title=\"Linked In\" target=\"_blank\"><i class=\"social-icon icon-linkedin\"></i></a></li>";
                     }
                     if (!empty($gp)) {
-                        echo "<li><a href=\"https://plus.google.com/$gp/about\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Google Plus\"><i class=\"social-icon icon-gplus\"></i></a></li>";
+                        echo "<li><a href=\"https://plus.google.com/$gp/about\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Google Plus\" target=\"_blank\"><i class=\"social-icon icon-gplus\"></i></a></li>";
                     }
                     if (!empty($w)) {
-                        echo "<li><a href=\"http://$w\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Site\"><i class=\"social-icon icon-blog\"></i></a></li>";
+                        echo "<li><a href=\"http://$w\" class=\"tips\" title=\"Google Plus\" data-original-title=\"Site\" target=\"_blank\"><i class=\"social-icon icon-blog\"></i></a></li>";
                     }
                     echo "</ul></div>";
                  }
@@ -107,7 +107,7 @@ define('INDEX',true);
                             <div class="boxContent boxNomeTeam color4">
                                 <h3>Marco Aurélio</h3>
                             </div>
-                            <?php do_social('marco@axiomteam.works','MarcoAurelioMAnjos','in/marcoaure','+MarcoAurélioMoreiradosAnjos','curriculo.marcoaureliodesign.com.br'); ?>
+                            <?php do_social('marco@axiomteam.works','MarcoAurelioMAnjos','in/marcoaure','+MarcoAurélioMoreiradosAnjos'); ?>
                         </article>
                     </div>
                     <div class="col-sm-6 col-md-3">
