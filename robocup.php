@@ -43,17 +43,14 @@ define("PROJETO", "Robocup - FIAP");
         <div class="container">
             <div class="content">
               <h2>Objetivo</h2>
-                
-                <div style="width:400px;float:left">
-                    <p>
-                    O principal objetivo deste projeto proposto pela FIAP, foi de colocar os conhecimentos obtidos no decorrer do curso em prática.
-                    </p><p>
-                    Além disso, tivemos a possibilidade de entender a visão de mercado de um produto desenvolvido de maneira que atenda os padrões profissionais do setor tecnológico.
-                    </p>
-                </div>
-                <div style="float:right">
-                    <iframe width="560" height="315" src="//www.youtube.com/embed/nV4ZpCcdbLQ?rel=0" frameborder="0" allowfullscreen></iframe>
-                </div>
+                <div class="objective-content">
+					<p>
+						O principal objetivo deste projeto proposto pela FIAP, foi de colocar os conhecimentos obtidos no decorrer do curso em prática. Além disso, tivemos a possibilidade de entender a visão de mercado de um produto desenvolvido de maneira que atenda os padrões profissionais do setor tecnológico.
+					</p>
+					<div class="video-container">
+						<iframe src="//www.youtube.com/embed/nV4ZpCcdbLQ?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
             </div>
         </div>
     </div>
