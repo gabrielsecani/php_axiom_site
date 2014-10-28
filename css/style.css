@@ -143,6 +143,7 @@ footer div{
 #fechaContato {
 	text-decoration:none; 
 	cursor: pointer;
+    font-size: 16px;
 }
 
 #fechaContato a{
@@ -174,6 +175,24 @@ footer div{
     width:100%;
     left:0;
 }
+/** @author gabriellucas - Contato com box scroll para permitir digitar no celular */
+@media (max-width: 400px) {
+  #contato label  {
+    display: none;
+  }
+}@media (max-height: 400px) {
+  #form-contact {
+    overflow-y: scroll;
+    height:120px;
+  }
+  #contato h2{
+  	padding:0px;
+  }
+  #contato .form-group{
+  	margin-right: 0px;
+  } 
+}
+/** fim contato box scroll */
 
 /*WALL-E ROBOCUP */
 @media (min-width: 1200px){
