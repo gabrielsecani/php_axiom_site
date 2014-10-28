@@ -39,6 +39,13 @@ $(function(){
         $('#contato').toggle();
         return false;
     });
+	
+	$("#fechaContato").click(function(){
+        $('#contato').toggle();
+		document.getElementById("form-contact").reset();
+        return true;
+		
+    });
 
     // Portfolio Black&White
     $('.bwWrapper').BlackAndWhite({

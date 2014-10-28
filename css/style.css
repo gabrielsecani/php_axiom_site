@@ -82,6 +82,20 @@ footer div{
     cursor: pointer;
     margin: -10px 2% -60px 0;
 }
+
+#fechaContato {
+	text-decoration:none; 
+	cursor: pointer;
+}
+
+#fechaContato a{
+	color:#428bca;
+}
+
+#fechaContato a:hover{
+	color:#3071a9;
+}
+
 #contato{
     display: none;
 }
