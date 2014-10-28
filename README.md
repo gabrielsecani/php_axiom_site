@@ -1,4 +1,7 @@
 # README #
+##2014-10-28
+* fixing bug of contact form
+
 ##2014-10-27
 * adding video youtube robocup
 
