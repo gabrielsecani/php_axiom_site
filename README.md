@@ -1,4 +1,7 @@
 # README #
+##2014-10-30
+* align images at gallery
+
 ##2014-10-28
 * fixing bug of contact form
 

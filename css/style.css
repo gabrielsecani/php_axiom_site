@@ -222,6 +222,7 @@ footer div{
 }
 .gallery{
     padding:10px;
+    padding-left: 0px;
 }
 .gallery a img{
     width: 100%;
@@ -396,4 +397,7 @@ ul.socialNetwork li {
     height: 235px;
     width: 260px;    
     z-index: -1;
+}
+#gallery .row a:first-child{
+    padding-left:0px;
 }

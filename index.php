@@ -90,8 +90,6 @@ define('INDEX',true);
                  }
                 ?>
                 <div class="row">
-                    <div class="col-xs-12">
-                    </div>
                     <div class="col-sm-6 col-md-3">
                         <article>
                             <div><img src="images/team/lucas.jpg" alt="" class="img-responsive"></div>
