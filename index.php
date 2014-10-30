@@ -32,14 +32,19 @@ define('INDEX',true);
         <div class="container">
             <div class="content">
                 <h2>Projetos</h2>
+                        <a href="robocup">
+                            <div class="portfolio bwWrapper">
+                                <h2>wall-E - RoboCup 2014</h2>
+                                <img src="images/gallery/robocup/robocup19.jpg" />
+                            </div>
+                        </a>
+                        <a href="#" onclick="return false">
+                            <div class="portfolio bwWrapper">
+                                <h2>Care UP</h2>
+                                <img src="images/careup.png" />
+                            </div>
+                        </a>
 
-                <a href="robocup">
-                    <div class="portfolio bwWrapper">
-
-                          <h2>wall-E - RoboCup 2014</h2>
-                        <img src="images/gallery/robocup/robocup19.jpg" />
-                    </div>
-                </a>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -50,7 +55,7 @@ define('INDEX',true);
             <div class="content">
                 <h2>Equipe</h2>
 
-                <?
+                <?php
                 /**
                  * Gera HTML do boxSocial com os valores informados
                  *
