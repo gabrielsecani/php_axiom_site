@@ -14,6 +14,12 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-55634087-1', 'auto');
+  /** 
+    * Atualizar o código de acompanhamento do Google Analytics para oferecer suporte à publicidade gráfica
+    * https://support.google.com/analytics/answer/2444872?hl=pt-BR&utm_id=ad
+    * https://support.google.com/analytics/answer/3450482 
+    */
+  ga('require', 'displayfeatures'); 
   ga('send', 'pageview');
 
 </script>
